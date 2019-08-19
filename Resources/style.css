@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+    img {
+        height: 0px;
+        visibility: hidden;
+    }
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+}
+
+.form-group {
+    float: right;
+}
+
+.custom-control-label {
+  margin: .5rem 1rem;
+}
+.name {
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    float: right;
+    width: 25%;
+}

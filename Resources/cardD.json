@@ -1,0 +1,4269 @@
+{
+    "id": "bitcoin",
+    "symbol": "btc",
+    "name": "Bitcoin",
+    "asset_platform_id": null,
+    "block_time_in_minutes": 10,
+    "categories": [
+        "Cryptocurrency"
+    ],
+    "localization": {
+        "en": "Bitcoin",
+        "es": "Bitcoin",
+        "de": "Bitcoin",
+        "nl": "Bitcoin",
+        "pt": "Bitcoin",
+        "fr": "Bitcoin",
+        "it": "Bitcoin",
+        "hu": "Bitcoin",
+        "ro": "Bitcoin",
+        "sv": "Bitcoin",
+        "pl": "Bitcoin",
+        "id": "Bitcoin",
+        "zh": "比特币",
+        "zh-tw": "比特幣",
+        "ja": "ビットコイン",
+        "ko": "비트코인",
+        "ru": "биткоина",
+        "ar": "بيتكوين",
+        "th": "บิตคอยน์",
+        "vi": "Bitcoin",
+        "tr": "Bitcoin"
+    },
+    "description": {
+        "en": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "es": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "de": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "nl": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "pt": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "fr": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "it": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "hu": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "ro": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "sv": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "pl": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "id": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "zh": "",
+        "zh-tw": "",
+        "ja": "",
+        "ko": "비트코인은 2009년 나카모토 사토시가 만든 디지털 통화로, 통화를 발행하고 관리하는 중앙 장치가 존재하지 않는 구조를 가지고 있다. 대신, 비트코인의 거래는 P2P 기반 분산 데이터베이스에 의해 이루어지며, 공개 키 암호 방식 기반으로 거래를 수행한다. 비트코인은 공개성을 가지고 있다. 비트코인은 지갑 파일의 형태로 저장되며, 이 지갑에는 각각의 고유 주소가 부여되며, 그 주소를 기반으로 비트코인의 거래가 이루어진다. 비트코인은 1998년 웨이따이가 사이버펑크 메일링 리스트에 올린 암호통화란 구상을 최초로 구현한 것 중의 하나이다.\r\n\r\n비트코인은 최초로 구현된 가상화폐입니다. 발행 및 유통을 관리하는 중앙권력이나 중간상인 없이, P2P 네트워크 기술을 이용하여 네트워크에 참여하는 사용자들이 주체적으로 화폐를 발행하고 이체내용을 공동으로 관리합니다. 이를 가능하게 한 블록체인 기술을 처음으로 코인에 도입한 것이 바로 비트코인입니다.\r\n\r\n비트코인을 사용하는 개인과 사업자의 수는 꾸준히 증가하고 있으며, 여기에는 식당, 아파트, 법률사무소, 온라인 서비스를 비롯한 소매상들이 포함됩니다. 비트코인은 새로운 사회 현상이지만 아주 빠르게 성장하고 있습니다. 이를 바탕으로 가치 증대는 물론, 매일 수백만 달러의 비트코인이 교환되고 있습니다. \r\n\r\n비트코인은 가상화폐 시장에서 현재 유통시가총액과 코인의 가치가 가장 크고, 거래량 또한 안정적입니다. 이더리움이 빠르게 추격하고 있지만 아직은 가장 견고한 가상화폐라고 볼 수 있습니다. \r\n\r\n코인 특징\r\n1. 중앙주체 없이 사용자들에 의해 거래내용이 관리될 수 있는 비트코인의 운영 시스템은 블록체인 기술에서 기인합니다. 블록체인은 쉽게 말해 다 같이 장부를 공유하고, 항상 서로의 컴퓨터에 있는 장부 파일을 비교함으로써 같은 내용만 인정하는 방식으로 운영됩니다. 따라서 전통적인 금융기관에서 장부에 대한 접근을 튼튼하게 방어하던 것과는 정반대의 작업을 통해 보안을 달성합니다. 장부를 해킹하려면 51%의 장부를 동시에 조작해야 하는데, 이는 사실상 불가능합니다. 왜냐하면, 이를 실행하기 위해서는 컴퓨팅 파워가 어마어마하게 소요되고, 이것이 가능한 슈퍼컴퓨터는 세상에 존재하지 않기 때문입니다. 또한, 장부의 자료들은 줄글로 기록되는 것이 아니라 암호화 해시 함수형태로 블록에 저장되고, 이 블록들은 서로 연결되어 있어서 더 강력한 보안을 제공합니다. \r\n\r\n2. 비트코인은 블록발행보상을 채굴자에게 지급하는 방식으로 신규 코인을 발행합니다. 블록발행보상은 매 21만 블록(약 4년)을 기준으로 발행량이 절반으로 줄어듭니다. 처음에는 50비트코인씩 발행이 되었고, 4년마다 계속 반으로 감소하고 있습니다. 코인의 총량이 2,100만 개에 도달하면 신규 발행은 종료되고, 이후에는 거래 수수료만을 통해 시스템이 지탱될 것입니다. \r\n\r\n핵심 가치\r\n(키워드: 통화로 사용될 수 있는 보편성 및 편의성)\r\n\r\n1. 다양한 알트코인들의 등장에 앞서 비트코인은 가상화폐 시장에서 독보적이었기 때문에, 현재 가장 보편적인 결제수단으로 사용됩니다. 실생활에서 이를 활용할 수 있는 가맹점이 알트코인들보다 압도적으로 많을 뿐만 아니라, 이 또한 증가하고 있습니다. 일례로 일본 업체들이 비트코인 결제 시스템을 도입하면서 곧 비트코인을 오프라인 점포 26만 곳에서 이용할 수 있게 될 것입니다. \r\n\r\n2. 여러 나라에서 비트코인을 정식 결제 수단으로 인정하면서, 실물화폐와 가상화폐를 거래할 때 더는 부가가치세가 부과되지 않게 된다고 합니다. 실제로 일본과 호주에서는 이미 비트코인을 합법적 결제 수단으로 인정하면서 제도권 안으로 들여오고 있고, 미국에서는 비트코인 ETF 승인 노력도 진행되고 있습니다. 각국에 비트코인을 기반으로 한 ATM 기계도 설치되었다고 합니다. ",
+        "ru": "",
+        "ar": "",
+        "th": "",
+        "vi": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e.",
+        "tr": "Bitcoin is the first successful internet money based on peer-to-peer technology; whereby no central bank or authority is involved in the transaction and production of the Bitcoin currency. It was created by an anonymous individual/group under the name, Satoshi Nakamoto. The source code is available publicly as an open source project, anybody can look at it and be part of the developmental process.\r\n\r\nBitcoin is changing the way we see money as we speak. The idea was to produce a means of exchange, independent of any central authority, that could be transferred electronically in a secure, verifiable and immutable way. It is a decentralized peer-to-peer internet currency making mobile payment easy, very low transaction fees, protects your identity, and it works anywhere all the time with no central authority or banks.\r\n\r\nBitcoin is design to have only 21 million BTC ever created, thus making it a deflationary currency. Bitcoin uses the \u003ca href=\"https://www.coingecko.com/en?hashing_algorithm=SHA-256\"\u003eSHA-256\u003c/a\u003e hashing algorithm with an average transaction confirmation time of 10 minutes. Miners today are mining Bitcoin using ASIC chip dedicated to only mining Bitcoin, and the hash rate has shot up to peta hashes.\r\n\r\nBeing the first successful online cryptography currency, Bitcoin has inspired other alternative currencies such as \u003ca href=\"https://www.coingecko.com/en/coins/litecoin\"\u003eLitecoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/peercoin\"\u003ePeercoin\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/primecoin\"\u003ePrimecoin\u003c/a\u003e, and so on.\r\n\r\nThe cryptocurrency then took off with the innovation of the turing-complete smart contract by \u003ca href=\"https://www.coingecko.com/en/coins/ethereum\"\u003eEthereum\u003c/a\u003e which led to the development of other amazing projects such as \u003ca href=\"https://www.coingecko.com/en/coins/eos\"\u003eEOS\u003c/a\u003e, \u003ca href=\"https://www.coingecko.com/en/coins/tron\"\u003eTron\u003c/a\u003e, and even crypto-collectibles such as \u003ca href=\"https://www.coingecko.com/buzz/ethereum-still-king-dapps-cryptokitties-need-1-billion-on-eos\"\u003eCryptoKitties\u003c/a\u003e."
+    },
+    "links": {
+        "homepage": [
+            "http://www.bitcoin.org",
+            "",
+            ""
+        ],
+        "blockchain_site": [
+            "https://blockchair.com/bitcoin/",
+            "https://btc.com/",
+            "",
+            "",
+            ""
+        ],
+        "official_forum_url": [
+            "https://bitcointalk.org/",
+            "",
+            ""
+        ],
+        "chat_url": [
+            "",
+            "",
+            ""
+        ],
+        "announcement_url": [
+            "",
+            ""
+        ],
+        "twitter_screen_name": "btc",
+        "facebook_username": "bitcoins",
+        "bitcointalk_thread_identifier": null,
+        "telegram_channel_identifier": "",
+        "subreddit_url": "https://www.reddit.com/r/Bitcoin/",
+        "repos_url": {
+            "github": [
+                "https://github.com/bitcoin/bitcoin",
+                "https://github.com/bitcoin/bips"
+            ],
+            "bitbucket": []
+        }
+    },
+    "image": {
+        "thumb": "https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579",
+        "small": "https://assets.coingecko.com/coins/images/1/small/bitcoin.png?1547033579",
+        "large": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579"
+    },
+    "country_origin": "",
+    "genesis_date": "2009-01-03",
+    "sentiment_votes_up_percentage": 70.83333333333334,
+    "sentiment_votes_down_percentage": 29.166666666666668,
+    "market_cap_rank": 1,
+    "coingecko_rank": 1,
+    "coingecko_score": 90.832,
+    "developer_score": 92.0,
+    "community_score": 94.604,
+    "liquidity_score": 100.026,
+    "public_interest_score": 41.755,
+    "market_data": {
+        "current_price": {
+            "aed": 38164,
+            "ars": 569726,
+            "aud": 15328.47,
+            "bch": 32.571738,
+            "bdt": 877517,
+            "bhd": 3911.69,
+            "bmd": 10390.01,
+            "bnb": 371.365,
+            "brl": 41626,
+            "btc": 1.0,
+            "cad": 13791.33,
+            "chf": 10171.3,
+            "clp": 7358203,
+            "cny": 73180,
+            "czk": 241102,
+            "dkk": 69874,
+            "eos": 2799,
+            "eth": 52.969,
+            "eur": 9368.8,
+            "gbp": 8552.47,
+            "hkd": 81498,
+            "huf": 3040996,
+            "idr": 147609438,
+            "ils": 36845,
+            "inr": 739301,
+            "jpy": 1104291,
+            "krw": 12581779,
+            "kwd": 3161.15,
+            "lkr": 1837090,
+            "ltc": 135.158,
+            "mmk": 15761123,
+            "mxn": 204147,
+            "myr": 43327,
+            "nok": 93609,
+            "nzd": 16189.36,
+            "php": 543538,
+            "pkr": 1638962,
+            "pln": 40697,
+            "rub": 689992,
+            "sar": 38973,
+            "sek": 100504,
+            "sgd": 14399.64,
+            "thb": 320843,
+            "try": 58026,
+            "twd": 325768,
+            "uah": 260983,
+            "usd": 10390.01,
+            "vef": 2581788279,
+            "vnd": 240910669,
+            "xag": 608.69,
+            "xau": 6.88,
+            "xdr": 7574.81,
+            "xlm": 148159,
+            "xrp": 36668,
+            "zar": 158947
+        },
+        "roi": null,
+        "ath": {
+            "aed": 72229,
+            "ars": 654921,
+            "aud": 25717,
+            "bch": 42.242547,
+            "bdt": 1631248,
+            "bhd": 7416.37,
+            "bmd": 19665.39,
+            "bnb": 143062,
+            "brl": 64777,
+            "btc": 1.0,
+            "cad": 25303,
+            "chf": 19484.57,
+            "clp": 12582805,
+            "cny": 130006,
+            "czk": 429834,
+            "dkk": 124584,
+            "eos": 3059,
+            "eth": 624.203,
+            "eur": 16727.68,
+            "gbp": 14759.86,
+            "hkd": 153608,
+            "huf": 5263109,
+            "idr": 266681922,
+            "ils": 69096,
+            "inr": 1259942,
+            "jpy": 2214028,
+            "krw": 21418073,
+            "kwd": 5939.64,
+            "lkr": 3024387,
+            "ltc": 318.98,
+            "mmk": 26871485,
+            "mxn": 376059,
+            "myr": 80224,
+            "nok": 164805,
+            "nzd": 28131,
+            "php": 991988,
+            "pkr": 2181203,
+            "pln": 70407,
+            "rub": 1157051,
+            "sar": 73750,
+            "sek": 167278,
+            "sgd": 26517,
+            "thb": 639578,
+            "try": 80284,
+            "twd": 589706,
+            "uah": 363965,
+            "usd": 19665.39,
+            "vef": 3454441855,
+            "vnd": 323919147,
+            "xag": 1225.45,
+            "xau": 15.67,
+            "xdr": 13907.05,
+            "xlm": 161998,
+            "xrp": 40347,
+            "zar": 257660
+        },
+        "ath_change_percentage": {
+            "aed": -47.21446,
+            "ars": -13.0993,
+            "aud": -40.44652,
+            "bch": -22.87108,
+            "bdt": -46.25806,
+            "bhd": -47.30722,
+            "bmd": -47.21737,
+            "bnb": -99.7405,
+            "brl": -35.80235,
+            "btc": 0.0,
+            "cad": -45.54961,
+            "chf": -47.84902,
+            "clp": -41.5862,
+            "cny": -43.7698,
+            "czk": -43.96732,
+            "dkk": -43.97499,
+            "eos": -8.36989,
+            "eth": -91.50716,
+            "eur": -44.05419,
+            "gbp": -42.10767,
+            "hkd": -46.99871,
+            "huf": -42.27842,
+            "idr": -44.69004,
+            "ils": -46.72764,
+            "inr": -41.37963,
+            "jpy": -50.16956,
+            "krw": -41.32059,
+            "kwd": -46.83045,
+            "lkr": -39.31647,
+            "ltc": -57.61373,
+            "mmk": -41.40327,
+            "mxn": -45.76682,
+            "myr": -46.0453,
+            "nok": -43.26858,
+            "nzd": -42.48792,
+            "php": -45.27042,
+            "pkr": -24.93271,
+            "pln": -42.25718,
+            "rub": -40.42963,
+            "sar": -47.20681,
+            "sek": -39.96803,
+            "sgd": -45.74588,
+            "thb": -49.88384,
+            "try": -27.79122,
+            "twd": -44.80957,
+            "uah": -28.36417,
+            "usd": -47.21737,
+            "vef": -25.33439,
+            "vnd": -25.71233,
+            "xag": -50.39064,
+            "xau": -56.13782,
+            "xdr": -45.58549,
+            "xlm": -8.41723,
+            "xrp": -9.14321,
+            "zar": -38.36959
+        },
+        "ath_date": {
+            "aed": "2017-12-16T00:00:00.000Z",
+            "ars": "2019-08-13T13:41:31.186Z",
+            "aud": "2017-12-16T00:00:00.000Z",
+            "bch": "2018-12-15T16:19:57.060Z",
+            "bdt": "2017-12-16T00:00:00.000Z",
+            "bhd": "2017-12-16T00:00:00.000Z",
+            "bmd": "2017-12-16T00:00:00.000Z",
+            "bnb": "2017-10-19T00:00:00.000Z",
+            "brl": "2017-12-16T00:00:00.000Z",
+            "btc": "2018-08-09T06:12:38.151Z",
+            "cad": "2017-12-16T00:00:00.000Z",
+            "chf": "2017-12-16T00:00:00.000Z",
+            "clp": "2017-12-16T00:00:00.000Z",
+            "cny": "2017-12-16T00:00:00.000Z",
+            "czk": "2017-12-16T00:00:00.000Z",
+            "dkk": "2017-12-16T00:00:00.000Z",
+            "eos": "2019-08-09T18:50:43.445Z",
+            "eth": "2015-10-20T00:00:00.000Z",
+            "eur": "2017-12-16T00:00:00.000Z",
+            "gbp": "2017-12-16T00:00:00.000Z",
+            "hkd": "2017-12-16T00:00:00.000Z",
+            "huf": "2017-12-16T00:00:00.000Z",
+            "idr": "2017-12-16T00:00:00.000Z",
+            "ils": "2017-12-16T00:00:00.000Z",
+            "inr": "2017-12-16T00:00:00.000Z",
+            "jpy": "2017-12-16T00:00:00.000Z",
+            "krw": "2017-12-16T00:00:00.000Z",
+            "kwd": "2017-12-16T00:00:00.000Z",
+            "lkr": "2017-12-16T00:00:00.000Z",
+            "ltc": "2017-03-05T00:00:00.000Z",
+            "mmk": "2017-12-16T00:00:00.000Z",
+            "mxn": "2017-12-16T00:00:00.000Z",
+            "myr": "2017-12-16T00:00:00.000Z",
+            "nok": "2017-12-16T00:00:00.000Z",
+            "nzd": "2017-12-16T00:00:00.000Z",
+            "php": "2017-12-16T00:00:00.000Z",
+            "pkr": "2019-06-26T19:55:29.614Z",
+            "pln": "2017-12-16T00:00:00.000Z",
+            "rub": "2017-12-16T00:00:00.000Z",
+            "sar": "2017-12-16T00:00:00.000Z",
+            "sek": "2017-12-16T00:00:00.000Z",
+            "sgd": "2017-12-16T00:00:00.000Z",
+            "thb": "2017-12-16T00:00:00.000Z",
+            "try": "2019-06-26T19:55:29.614Z",
+            "twd": "2017-12-16T00:00:00.000Z",
+            "uah": "2019-06-26T19:55:29.614Z",
+            "usd": "2017-12-16T00:00:00.000Z",
+            "vef": "2019-06-26T19:55:29.614Z",
+            "vnd": "2019-06-26T19:55:29.614Z",
+            "xag": "2017-12-16T00:00:00.000Z",
+            "xau": "2017-12-16T00:00:00.000Z",
+            "xdr": "2017-12-16T00:00:00.000Z",
+            "xlm": "2019-08-09T21:26:02.294Z",
+            "xrp": "2019-08-09T21:35:41.558Z",
+            "zar": "2017-12-16T00:00:00.000Z"
+        },
+        "market_cap": {
+            "aed": 681703574391,
+            "ars": 10176008456102,
+            "aud": 273796328087,
+            "bch": 582523833,
+            "bdt": 15674827069798,
+            "bhd": 69873420688,
+            "bmd": 185593675961,
+            "bnb": 6642401727,
+            "brl": 743546727908,
+            "btc": 17884075,
+            "cad": 246345353069,
+            "chf": 181683402802,
+            "clp": 131420738070315,
+            "cny": 1307228499850,
+            "czk": 4306204416404,
+            "dkk": 1247936145816,
+            "eos": 50085429967,
+            "eth": 947817522,
+            "eur": 167325319249,
+            "gbp": 152755287717,
+            "hkd": 1455730722889,
+            "huf": 54312479094236,
+            "idr": 2636030461116834,
+            "ils": 658152293693,
+            "inr": 13205918013003,
+            "jpy": 19725300703626,
+            "krw": 224748373778454,
+            "kwd": 56466690317,
+            "lkr": 32815397826896,
+            "ltc": 2416969901,
+            "mmk": 281536370734693,
+            "mxn": 3646800664554,
+            "myr": 773936022003,
+            "nok": 1671889450157,
+            "nzd": 289246630423,
+            "php": 9707036250564,
+            "pkr": 29276300884376,
+            "pln": 726849236069,
+            "rub": 12325962717169,
+            "sar": 696161878530,
+            "sek": 1795394432168,
+            "sgd": 257230236570,
+            "thb": 5730724407588,
+            "try": 1036489270794,
+            "twd": 5820977869833,
+            "uah": 4661858505616,
+            "usd": 185593675961,
+            "vef": 46117734954381272,
+            "vnd": 4302567433830234,
+            "xag": 10866776982,
+            "xau": 122837030,
+            "xdr": 135306698272,
+            "xlm": 2651213109808,
+            "xrp": 655619605659,
+            "zar": 2839322297494
+        },
+        "market_cap_rank": 1,
+        "total_volume": {
+            "aed": 74459346846,
+            "ars": 1111569834655,
+            "aud": 29906791064,
+            "bch": 63549469,
+            "bdt": 1712089285414,
+            "bhd": 7631952452,
+            "bmd": 20271543835,
+            "bnb": 724555253,
+            "brl": 81214190140,
+            "btc": 1951849,
+            "cad": 26907737783,
+            "chf": 19844827837,
+            "clp": 14356307344037,
+            "cny": 142778564694,
+            "czk": 470405107374,
+            "dkk": 136329233837,
+            "eos": 5461243034,
+            "eth": 103345725,
+            "eur": 18279114606,
+            "gbp": 16686399679,
+            "hkd": 159007780244,
+            "huf": 5933170502934,
+            "idr": 287995114703591,
+            "ils": 71886948748,
+            "inr": 1442421701588,
+            "jpy": 2154540764973,
+            "krw": 24547826007147,
+            "kwd": 6167596940,
+            "lkr": 3584275014063,
+            "ltc": 263702503,
+            "mmk": 30750923225052,
+            "mxn": 398302996459,
+            "myr": 84533472999,
+            "nok": 182637893191,
+            "nzd": 31586430371,
+            "php": 1060476786884,
+            "pkr": 3197715728379,
+            "pln": 79402724983,
+            "rub": 1346217008856,
+            "sar": 76038560926,
+            "sek": 196090231580,
+            "sgd": 28094575860,
+            "thb": 625985273629,
+            "try": 113211707149,
+            "twd": 635593985407,
+            "uah": 509193368580,
+            "usd": 20271543835,
+            "vef": 5037228132175765,
+            "vnd": 470031570811501,
+            "xag": 1187588732,
+            "xau": 13426452,
+            "xdr": 14778928490,
+            "xlm": 289067838663,
+            "xrp": 71541277520,
+            "zar": 310114483021
+        },
+        "high_24h": {
+            "aed": 38657,
+            "ars": 576896,
+            "aud": 15522.19,
+            "bch": 33.4049,
+            "bdt": 889761,
+            "bhd": 3967.89,
+            "bmd": 10524.23,
+            "bnb": 379.075,
+            "brl": 42161,
+            "btc": 1.0,
+            "cad": 13971.39,
+            "chf": 10296.44,
+            "clp": 7452367,
+            "cny": 74121,
+            "czk": 244290,
+            "dkk": 70762,
+            "eos": 2877,
+            "eth": 55.141,
+            "eur": 9486.02,
+            "gbp": 8661.23,
+            "hkd": 82531,
+            "huf": 3080337,
+            "idr": 149686679,
+            "ils": 37321,
+            "inr": 748714,
+            "jpy": 1119516,
+            "krw": 12718498,
+            "kwd": 3202.19,
+            "lkr": 1862745,
+            "ltc": 141.368,
+            "mmk": 15981397,
+            "mxn": 206897,
+            "myr": 43949,
+            "nok": 94853,
+            "nzd": 16369.92,
+            "php": 550301,
+            "pkr": 1681404,
+            "pln": 41177,
+            "rub": 700449,
+            "sar": 39475,
+            "sek": 101700,
+            "sgd": 14570.82,
+            "thb": 325278,
+            "try": 58707,
+            "twd": 329577,
+            "uah": 265874,
+            "usd": 10524.23,
+            "vef": 2615141621,
+            "vnd": 243912524,
+            "xag": 615.18,
+            "xau": 6.95,
+            "xdr": 7672.67,
+            "xlm": 154900,
+            "xrp": 38460,
+            "zar": 161068
+        },
+        "low_24h": {
+            "aed": 37115,
+            "ars": 553886,
+            "aud": 14903.06,
+            "bch": 32.197127,
+            "bdt": 854271,
+            "bhd": 3809.62,
+            "bmd": 10104.45,
+            "bnb": 369.675,
+            "brl": 40479,
+            "btc": 1.0,
+            "cad": 13414.12,
+            "chf": 9885.74,
+            "clp": 7155117,
+            "cny": 71165,
+            "czk": 234546,
+            "dkk": 67939,
+            "eos": 2764,
+            "eth": 52.702,
+            "eur": 9107.15,
+            "gbp": 8316.42,
+            "hkd": 79267,
+            "huf": 2957473,
+            "idr": 143716166,
+            "ils": 35833,
+            "inr": 718861,
+            "jpy": 1074862,
+            "krw": 12211199,
+            "kwd": 3074.46,
+            "lkr": 1788446,
+            "ltc": 133.099,
+            "mmk": 15343951,
+            "mxn": 198644,
+            "myr": 42196,
+            "nok": 91069,
+            "nzd": 15716.97,
+            "php": 528351,
+            "pkr": 1614338,
+            "pln": 39535,
+            "rub": 672510,
+            "sar": 37904,
+            "sek": 97643,
+            "sgd": 13989.64,
+            "thb": 312293,
+            "try": 56366,
+            "twd": 316431,
+            "uah": 255269,
+            "usd": 10104.45,
+            "vef": 2510832156,
+            "vnd": 234183649,
+            "xag": 590.64,
+            "xau": 6.68,
+            "xdr": 7366.63,
+            "xlm": 146231,
+            "xrp": 35997,
+            "zar": 154644
+        },
+        "price_change_24h": 211.76,
+        "price_change_percentage_24h": 2.08052,
+        "price_change_percentage_7d": -10.04322,
+        "price_change_percentage_14d": -5.1279,
+        "price_change_percentage_30d": -1.39096,
+        "price_change_percentage_60d": 11.8898,
+        "price_change_percentage_200d": 200.47309,
+        "price_change_percentage_1y": 62.80019,
+        "market_cap_change_24h": 3482563917,
+        "market_cap_change_percentage_24h": 1.91233,
+        "price_change_24h_in_currency": {
+            "aed": 777.82,
+            "ars": 11794.88,
+            "aud": 316.57,
+            "bch": -0.7476439716,
+            "bdt": 17007.09,
+            "bhd": 74.25,
+            "bmd": 211.76,
+            "bnb": -0.0297608677,
+            "brl": 850.57,
+            "btc": 0.0,
+            "cad": 279.25,
+            "chf": 213.36,
+            "clp": 150833,
+            "cny": 1495.56,
+            "czk": 4843.65,
+            "dkk": 1438.91,
+            "eos": -72.9514422419,
+            "eth": -2.1240155231,
+            "eur": 195.15,
+            "gbp": 175.32,
+            "hkd": 1652.15,
+            "huf": 61925,
+            "idr": 2843730,
+            "ils": 750.81,
+            "inr": 15189.97,
+            "jpy": 21580,
+            "krw": 281403,
+            "kwd": 64.23,
+            "lkr": 35582,
+            "ltc": -5.761012206,
+            "mmk": 305117,
+            "mxn": 4051.64,
+            "myr": 822.79,
+            "nok": 1874.99,
+            "nzd": 357.6,
+            "php": 11328.51,
+            "pkr": 12834.36,
+            "pln": 873.85,
+            "rub": 12570.7,
+            "sar": 791.77,
+            "sek": 2147.91,
+            "sgd": 307.83,
+            "thb": 6259.26,
+            "try": 1248.38,
+            "twd": 7026.31,
+            "uah": 3849.68,
+            "usd": 211.76,
+            "vef": 52619831,
+            "vnd": 5016806,
+            "xag": 13.73,
+            "xau": 0.157049,
+            "xdr": 154.38,
+            "xlm": -3099.547414344,
+            "xrp": -1775.8243986861,
+            "zar": 3173.25
+        },
+        "price_change_percentage_1h_in_currency": {
+            "aed": 0.57283,
+            "ars": 0.55083,
+            "aud": 0.61552,
+            "bch": -0.51499,
+            "bdt": 0.57283,
+            "bhd": 0.57283,
+            "bmd": 0.57283,
+            "bnb": 0.1056,
+            "brl": 0.57283,
+            "btc": 0.0,
+            "cad": 0.57533,
+            "chf": 0.53165,
+            "clp": 0.58845,
+            "cny": 0.57997,
+            "czk": 0.53671,
+            "dkk": 0.561,
+            "eos": -0.23957,
+            "eth": -0.72932,
+            "eur": 0.56424,
+            "gbp": 0.52227,
+            "hkd": 0.57291,
+            "huf": 0.57101,
+            "idr": 0.63032,
+            "ils": 0.57283,
+            "inr": 0.58909,
+            "jpy": 0.49801,
+            "krw": 0.67447,
+            "kwd": 0.57283,
+            "lkr": 0.57283,
+            "ltc": -0.16198,
+            "mmk": 0.57283,
+            "mxn": 0.62343,
+            "myr": 0.43863,
+            "nok": 0.52446,
+            "nzd": 0.54805,
+            "php": 0.56757,
+            "pkr": 0.57283,
+            "pln": 0.53526,
+            "rub": 0.60267,
+            "sar": 0.57283,
+            "sek": 0.5399,
+            "sgd": 0.5692,
+            "thb": 0.66737,
+            "try": 0.55079,
+            "twd": 0.65561,
+            "uah": 0.57283,
+            "usd": 0.57283,
+            "vef": 0.57283,
+            "vnd": 0.56937,
+            "xag": 0.4313,
+            "xau": 0.35011,
+            "xdr": 0.57283,
+            "xlm": 0.51858,
+            "xrp": -0.25112,
+            "zar": 0.62427
+        },
+        "price_change_percentage_24h_in_currency": {
+            "aed": 2.08052,
+            "ars": 2.11404,
+            "aud": 2.10883,
+            "bch": -2.24387,
+            "bdt": 1.9764,
+            "bhd": 1.93485,
+            "bmd": 2.08052,
+            "bnb": -0.00801,
+            "brl": 2.086,
+            "btc": 0.0,
+            "cad": 2.06668,
+            "chf": 2.1426,
+            "clp": 2.09276,
+            "cny": 2.08632,
+            "czk": 2.05015,
+            "dkk": 2.10258,
+            "eos": -2.54003,
+            "eth": -3.85533,
+            "eur": 2.1273,
+            "gbp": 2.0928,
+            "hkd": 2.06917,
+            "huf": 2.07867,
+            "idr": 1.96437,
+            "ils": 2.08014,
+            "inr": 2.09774,
+            "jpy": 1.99314,
+            "krw": 2.28776,
+            "kwd": 2.07414,
+            "lkr": 1.97514,
+            "ltc": -4.08816,
+            "mmk": 1.9741,
+            "mxn": 2.02486,
+            "myr": 1.93578,
+            "nok": 2.04394,
+            "nzd": 2.25876,
+            "php": 2.12858,
+            "pkr": 0.78926,
+            "pln": 2.19432,
+            "rub": 1.85567,
+            "sar": 2.07372,
+            "sek": 2.1838,
+            "sgd": 2.18448,
+            "thb": 1.98969,
+            "try": 2.19873,
+            "twd": 2.20439,
+            "uah": 1.49715,
+            "usd": 2.08052,
+            "vef": 2.08052,
+            "vnd": 2.12672,
+            "xag": 2.30777,
+            "xau": 2.33546,
+            "xdr": 2.08052,
+            "xlm": -2.04917,
+            "xrp": -4.61929,
+            "zar": 2.0371
+        },
+        "price_change_percentage_7d_in_currency": {
+            "aed": -10.04062,
+            "ars": 9.08545,
+            "aud": -10.05883,
+            "bch": -4.45987,
+            "bdt": -10.02825,
+            "bhd": -10.16944,
+            "bmd": -10.04322,
+            "bnb": -2.85584,
+            "brl": -8.56907,
+            "btc": 0.0,
+            "cad": -9.68157,
+            "chf": -9.38136,
+            "clp": -10.28399,
+            "cny": -10.28777,
+            "czk": -9.39198,
+            "dkk": -9.14908,
+            "eos": 1.81316,
+            "eth": -0.75229,
+            "eur": -9.08202,
+            "gbp": -11.00234,
+            "hkd": -10.01981,
+            "huf": -9.13634,
+            "idr": -9.94423,
+            "ils": -8.27818,
+            "inr": -9.90394,
+            "jpy": -9.30509,
+            "krw": -10.2838,
+            "kwd": -9.96124,
+            "lkr": -10.09967,
+            "ltc": 5.28591,
+            "mmk": -9.66087,
+            "mxn": -9.01952,
+            "myr": -10.35459,
+            "nok": -8.64832,
+            "nzd": -9.41149,
+            "php": -9.53968,
+            "pkr": -10.1605,
+            "pln": -8.68149,
+            "rub": -8.53452,
+            "sar": -10.04802,
+            "sek": -8.85145,
+            "sgd": -10.07346,
+            "thb": -9.58426,
+            "try": -8.574,
+            "twd": -10.12051,
+            "uah": -10.048,
+            "usd": -10.04322,
+            "vef": -10.04322,
+            "vnd": -10.09695,
+            "xag": -10.4623,
+            "xau": -10.64358,
+            "xdr": -9.77243,
+            "xlm": 0.09856,
+            "xrp": -3.80571,
+            "zar": -10.01388
+        },
+        "price_change_percentage_14d_in_currency": {
+            "aed": -5.12067,
+            "ars": 16.65968,
+            "aud": -4.94047,
+            "bch": -0.2375,
+            "bdt": -5.16468,
+            "bhd": -5.2472,
+            "bmd": -5.1279,
+            "bnb": -7.17188,
+            "brl": -2.17618,
+            "btc": 0.0,
+            "cad": -4.62067,
+            "chf": -5.48109,
+            "clp": -5.84648,
+            "cny": -3.71853,
+            "czk": -5.05364,
+            "dkk": -5.08051,
+            "eos": 7.96753,
+            "eth": 7.35036,
+            "eur": -4.979,
+            "gbp": -5.1113,
+            "hkd": -4.97598,
+            "huf": -5.7607,
+            "idr": -4.94714,
+            "ils": -3.61927,
+            "inr": -3.10148,
+            "jpy": -5.38295,
+            "krw": -4.6544,
+            "kwd": -5.15939,
+            "lkr": -4.58659,
+            "ltc": 14.62547,
+            "mmk": -4.83301,
+            "mxn": -3.63906,
+            "myr": -4.82327,
+            "nok": -4.13118,
+            "nzd": -3.60518,
+            "php": -3.85735,
+            "pkr": -6.49284,
+            "pln": -4.20037,
+            "rub": -3.46109,
+            "sar": -5.14434,
+            "sek": -4.71357,
+            "sgd": -4.52782,
+            "thb": -4.66481,
+            "try": -4.55024,
+            "twd": -5.46237,
+            "uah": -6.77689,
+            "usd": -5.1279,
+            "vef": -5.1279,
+            "vnd": -5.16297,
+            "xag": -9.98003,
+            "xau": -9.51597,
+            "xdr": -5.02512,
+            "xlm": 10.97617,
+            "xrp": 6.66115,
+            "zar": -1.55483
+        },
+        "price_change_percentage_30d_in_currency": {
+            "aed": -1.38873,
+            "ars": 27.71939,
+            "aud": 2.41705,
+            "bch": -5.20655,
+            "bdt": -1.44024,
+            "bhd": -1.53454,
+            "bmd": -1.39096,
+            "bnb": 2.57547,
+            "brl": 5.39119,
+            "btc": 0.0,
+            "cad": 0.20954,
+            "chf": -1.66719,
+            "clp": 1.45966,
+            "cny": 0.9217,
+            "czk": 0.58206,
+            "dkk": -0.341,
+            "eos": 7.43652,
+            "eth": 11.15937,
+            "eur": -0.1605,
+            "gbp": 1.47449,
+            "hkd": -0.94466,
+            "huf": -0.36126,
+            "idr": 0.64108,
+            "ils": -1.20569,
+            "inr": 1.77803,
+            "jpy": -2.70098,
+            "krw": 1.53101,
+            "kwd": -1.42724,
+            "lkr": -0.82268,
+            "ltc": 26.19462,
+            "mmk": -1.40011,
+            "mxn": 1.85182,
+            "myr": 0.05441,
+            "nok": 3.63543,
+            "nzd": 3.92591,
+            "php": 1.10064,
+            "pkr": -2.74483,
+            "pln": 1.93908,
+            "rub": 3.90314,
+            "sar": -1.38044,
+            "sek": 1.65861,
+            "sgd": 0.46132,
+            "thb": -1.11717,
+            "try": -2.61792,
+            "twd": -0.41268,
+            "uah": -3.76019,
+            "usd": -1.39096,
+            "vef": -1.39096,
+            "vnd": -1.68963,
+            "xag": -6.37065,
+            "xau": -6.91827,
+            "xdr": -0.59289,
+            "xlm": 30.01243,
+            "xrp": 11.49156,
+            "zar": 8.235
+        },
+        "price_change_percentage_60d_in_currency": {
+            "aed": 11.88724,
+            "ars": 41.5603,
+            "aud": 13.67078,
+            "bch": 46.12873,
+            "bdt": 11.82824,
+            "bhd": 11.72865,
+            "bmd": 11.8898,
+            "bnb": 40.9776,
+            "brl": 16.76629,
+            "btc": 0.0,
+            "cad": 11.91619,
+            "chf": 10.31777,
+            "clp": 14.6749,
+            "cny": 14.15398,
+            "czk": 13.76999,
+            "dkk": 13.22902,
+            "eos": 107.41052,
+            "eth": 53.53711,
+            "eur": 13.36782,
+            "gbp": 16.52507,
+            "hkd": 12.17633,
+            "huf": 13.73352,
+            "idr": 11.23482,
+            "ils": 10.33413,
+            "inr": 14.37452,
+            "jpy": 9.97961,
+            "krw": 15.67741,
+            "kwd": 12.03746,
+            "lkr": 11.91864,
+            "ltc": 98.71628,
+            "mmk": 11.06549,
+            "mxn": 15.5706,
+            "myr": 11.79479,
+            "nok": 15.96939,
+            "nzd": 14.27217,
+            "php": 13.06925,
+            "pkr": 12.36891,
+            "pln": 15.55853,
+            "rub": 16.51392,
+            "sar": 11.90919,
+            "sek": 14.15897,
+            "sgd": 13.77442,
+            "thb": 10.79192,
+            "try": 7.81008,
+            "twd": 12.74962,
+            "uah": 6.56776,
+            "usd": 11.8898,
+            "vef": 11.8898,
+            "vnd": 11.55223,
+            "xag": -0.78092,
+            "xau": 0.67239,
+            "xdr": 13.30941,
+            "xlm": 98.5958,
+            "xrp": 72.22922,
+            "zar": 19.48983
+        },
+        "price_change_percentage_200d_in_currency": {
+            "aed": 200.46622,
+            "ars": 339.32862,
+            "aud": 221.43311,
+            "bch": 10.61646,
+            "bdt": 202.62849,
+            "bhd": 200.09128,
+            "bmd": 200.47309,
+            "bnb": -34.10692,
+            "brl": 226.68182,
+            "btc": 0.0,
+            "cad": 203.44844,
+            "chf": 196.00318,
+            "clp": 220.52253,
+            "cny": 215.09769,
+            "czk": 210.74479,
+            "dkk": 210.87957,
+            "eos": 88.03452,
+            "eth": 65.91365,
+            "eur": 211.18298,
+            "gbp": 224.39022,
+            "hkd": 200.50454,
+            "huf": 219.99604,
+            "idr": 202.27662,
+            "ils": 190.7135,
+            "inr": 200.58203,
+            "jpy": 192.97532,
+            "krw": 227.78513,
+            "kwd": 201.46393,
+            "lkr": 196.1569,
+            "ltc": 24.04159,
+            "mmk": 200.07405,
+            "mxn": 209.10596,
+            "myr": 205.0492,
+            "nok": 221.52086,
+            "nzd": 222.76802,
+            "php": 201.33762,
+            "pkr": 239.86455,
+            "pln": 215.48772,
+            "rub": 204.87759,
+            "sar": 200.51715,
+            "sek": 221.62372,
+            "sgd": 209.15909,
+            "thb": 196.8205,
+            "try": 220.75565,
+            "twd": 206.49453,
+            "uah": 171.5113,
+            "usd": 200.47309,
+            "vef": 200.47309,
+            "vnd": 199.29755,
+            "xag": 182.70251,
+            "xau": 162.56312,
+            "xdr": 206.68033,
+            "xlm": 264.93417,
+            "xrp": 239.29788,
+            "zar": 244.53435
+        },
+        "price_change_percentage_1y_in_currency": {
+            "aed": 62.79647,
+            "ars": 200.06674,
+            "aud": 75.72475,
+            "bch": 182.46138,
+            "bdt": 63.76527,
+            "bhd": 62.49806,
+            "bmd": 62.80019,
+            "brl": 66.78477,
+            "btc": 0.0,
+            "cad": 65.46409,
+            "chf": 60.07598,
+            "clp": 72.675,
+            "cny": 66.79646,
+            "czk": 68.16276,
+            "dkk": 67.93303,
+            "eth": 143.32638,
+            "eur": 68.09212,
+            "gbp": 70.88716,
+            "hkd": 62.65621,
+            "huf": 68.85475,
+            "idr": 61.31021,
+            "ils": 57.72382,
+            "inr": 65.97245,
+            "jpy": 56.5814,
+            "krw": 76.09905,
+            "kwd": 63.17615,
+            "lkr": 79.42437,
+            "ltc": 20.65525,
+            "mmk": 65.78296,
+            "mxn": 69.30479,
+            "myr": 65.48179,
+            "nok": 73.56166,
+            "nzd": 68.33521,
+            "php": 59.80232,
+            "pkr": 107.63318,
+            "pln": 69.89414,
+            "rub": 61.34657,
+            "sar": 62.81972,
+            "sek": 71.9753,
+            "sgd": 64.53492,
+            "thb": 51.63046,
+            "try": 51.18118,
+            "twd": 66.13115,
+            "uah": 46.31962,
+            "usd": 62.80019,
+            "vef": 185.74609,
+            "vnd": 63.30576,
+            "xag": 41.15326,
+            "xau": 38.24032,
+            "xdr": 65.6328,
+            "zar": 71.01019
+        },
+        "market_cap_change_24h_in_currency": {
+            "aed": 12791795077,
+            "ars": 193405738316,
+            "aud": 5200648934,
+            "bch": -13318736.887857318,
+            "bdt": 278425213178,
+            "bhd": 1213160781,
+            "bmd": 3482563917,
+            "bnb": 1711721,
+            "brl": 13991401949,
+            "btc": 1625,
+            "cad": 4584656831,
+            "chf": 3514085779,
+            "clp": 2465117949404,
+            "cny": 24638148838,
+            "czk": 79023072535,
+            "dkk": 23475661768,
+            "eos": -1287875784.677597,
+            "eth": -37211602.411575556,
+            "eur": 3188573964,
+            "gbp": 2869647505,
+            "hkd": 27112209240,
+            "huf": 1010377710176,
+            "idr": 45855008964168,
+            "ils": 12347500719,
+            "inr": 249987533102,
+            "jpy": 353220712266,
+            "krw": 4667722610686,
+            "kwd": 1056106478,
+            "lkr": 582489123727,
+            "ltc": -102305657.74477339,
+            "mmk": 4994589352355,
+            "mxn": 66660101776,
+            "myr": 13444206664,
+            "nok": 30558419530,
+            "nzd": 5981901195,
+            "php": 184637418469,
+            "pkr": 181319068720,
+            "pln": 14322573864,
+            "rub": 205411966213,
+            "sar": 13017569476,
+            "sek": 35581912045,
+            "sgd": 5097037724,
+            "thb": 102125212098,
+            "try": 20618854481,
+            "twd": 117986285073,
+            "uah": 61185482057,
+            "usd": 3482563917,
+            "vef": 865374096764112,
+            "vnd": 81909767093744,
+            "xag": 221672250,
+            "xau": 2519861,
+            "xdr": 2538956259,
+            "xlm": -44452460377.28369,
+            "xrp": -32022031162.572144,
+            "zar": 52197319889
+        },
+        "market_cap_change_percentage_24h_in_currency": {
+            "aed": 1.91233,
+            "ars": 1.93743,
+            "aud": 1.93624,
+            "bch": -2.23528,
+            "bdt": 1.80838,
+            "bhd": 1.7669,
+            "bmd": 1.91233,
+            "bnb": 0.02578,
+            "brl": 1.9178,
+            "btc": 0.00909,
+            "cad": 1.89636,
+            "chf": 1.97233,
+            "clp": 1.9116,
+            "cny": 1.92097,
+            "czk": 1.8694,
+            "dkk": 1.91722,
+            "eos": -2.5069,
+            "eth": -3.77772,
+            "eur": 1.94263,
+            "gbp": 1.91456,
+            "hkd": 1.89779,
+            "huf": 1.89557,
+            "idr": 1.77034,
+            "ils": 1.91196,
+            "inr": 1.92952,
+            "jpy": 1.82335,
+            "krw": 2.12091,
+            "kwd": 1.90597,
+            "lkr": 1.80713,
+            "ltc": -4.06092,
+            "mmk": 1.80609,
+            "mxn": 1.86194,
+            "myr": 1.76783,
+            "nok": 1.86181,
+            "nzd": 2.11177,
+            "php": 1.93898,
+            "pkr": 0.6232,
+            "pln": 2.01011,
+            "rub": 1.69474,
+            "sar": 1.90554,
+            "sek": 2.02191,
+            "sgd": 2.02157,
+            "thb": 1.8144,
+            "try": 2.02967,
+            "twd": 2.06885,
+            "uah": 1.32992,
+            "usd": 1.91233,
+            "vef": 1.91233,
+            "vnd": 1.94069,
+            "xag": 2.08239,
+            "xau": 2.09435,
+            "xdr": 1.91233,
+            "xlm": -1.64903,
+            "xrp": -4.65679,
+            "zar": 1.8728
+        },
+        "total_supply": 21000000.0,
+        "circulating_supply": 17884075.0,
+        "last_updated": "2019-08-19T02:26:31.186Z"
+    },
+    "community_data": {
+        "facebook_likes": 39971,
+        "twitter_followers": 66374,
+        "reddit_average_posts_48h": 5.19,
+        "reddit_average_comments_48h": 246.619,
+        "reddit_subscribers": 1114533,
+        "reddit_accounts_active_48h": 3606,
+        "telegram_channel_user_count": null
+    },
+    "developer_data": {
+        "forks": 23910,
+        "stars": 39735,
+        "subscribers": 3516,
+        "total_issues": 0,
+        "closed_issues": 0,
+        "pull_requests_merged": 6649,
+        "pull_request_contributors": 596,
+        "code_additions_deletions_4_weeks": {
+            "additions": 2722,
+            "deletions": -1759
+        },
+        "commit_count_4_weeks": 231,
+        "last_4_weeks_commit_activity_series": [
+            1,
+            3,
+            5,
+            5,
+            2,
+            6,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0,
+            4,
+            3,
+            3,
+            2,
+            4,
+            4,
+            6,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "public_interest_stats": {
+        "alexa_rank": 11741,
+        "bing_matches": 35500000
+    },
+    "status_updates": [],
+    "last_updated": "2019-08-19T02:26:31.186Z",
+    "tickers": [
+        {
+            "base": "BTCB",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 1.0,
+            "volume": 3.21481635,
+            "converted_last": {
+                "btc": 1.0,
+                "eth": 53.211,
+                "usd": 10359.36
+            },
+            "converted_volume": {
+                "btc": 3.214816,
+                "eth": 171.065,
+                "usd": 33303
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.01,
+            "timestamp": "2019-08-19T01:50:42+00:00",
+            "last_traded_at": "2019-08-19T01:50:42+00:00",
+            "last_fetch_at": "2019-08-19T02:24:30+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BTCB_BTC",
+            "coin_id": "bitcoin-bep2"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 10393.5,
+            "volume": 24594.38140380481,
+            "converted_last": {
+                "btc": 1.001528,
+                "eth": 53.02,
+                "usd": 10393.04
+            },
+            "converted_volume": {
+                "btc": 24632,
+                "eth": 1303988,
+                "usd": 255610289
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.003272,
+            "timestamp": "2019-08-19T02:24:25+00:00",
+            "last_traded_at": "2019-08-19T02:24:25+00:00",
+            "last_fetch_at": "2019-08-19T02:24:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BTC_USDT",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 10378.98,
+            "volume": 3314.03352387,
+            "converted_last": {
+                "btc": 1.000616,
+                "eth": 53.008,
+                "usd": 10378.98
+            },
+            "converted_volume": {
+                "btc": 3316,
+                "eth": 175670,
+                "usd": 34396288
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.074807,
+            "timestamp": "2019-08-19T02:19:42+00:00",
+            "last_traded_at": "2019-08-19T02:19:42+00:00",
+            "last_fetch_at": "2019-08-19T02:19:42+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 10398.99,
+            "volume": 7495.2573491,
+            "converted_last": {
+                "btc": 1.001387,
+                "eth": 53.009,
+                "usd": 10398.99
+            },
+            "converted_volume": {
+                "btc": 7506,
+                "eth": 397317,
+                "usd": 77943106
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 9.6e-05,
+            "timestamp": "2019-08-19T02:25:20+00:00",
+            "last_traded_at": "2019-08-19T02:25:20+00:00",
+            "last_fetch_at": "2019-08-19T02:25:20+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://pro.coinbase.com/trade/BTC-USD",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XBT",
+            "target": "USD",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 10386.6,
+            "volume": 3168.9546676,
+            "converted_last": {
+                "btc": 1.001187,
+                "eth": 53.043,
+                "usd": 10386.6
+            },
+            "converted_volume": {
+                "btc": 3173,
+                "eth": 168091,
+                "usd": 32914665
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.016365,
+            "timestamp": "2019-08-19T02:21:25+00:00",
+            "last_traded_at": "2019-08-19T02:21:25+00:00",
+            "last_fetch_at": "2019-08-19T02:21:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/xbt/usd",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "bitFlyer",
+                "identifier": "bitflyer",
+                "has_trading_incentive": false
+            },
+            "last": 1106498.0,
+            "volume": 3060.68235027,
+            "converted_last": {
+                "btc": 1.003254,
+                "eth": 53.111,
+                "usd": 10410.95
+            },
+            "converted_volume": {
+                "btc": 3071,
+                "eth": 162556,
+                "usd": 31864597
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.059274,
+            "timestamp": "2019-08-19T02:24:41+00:00",
+            "last_traded_at": "2019-08-19T02:24:41+00:00",
+            "last_fetch_at": "2019-08-19T02:24:41+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bitflyer.com/en-jp/ex/simpleex",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "VBK",
+            "target": "BTC",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 1.82e-06,
+            "volume": 624625.00535426,
+            "converted_last": {
+                "btc": 1.82e-06,
+                "eth": 9.675e-05,
+                "usd": 0.01884029
+            },
+            "converted_volume": {
+                "btc": 1.136818,
+                "eth": 60.432,
+                "usd": 11768.12
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.546448,
+            "timestamp": "2019-08-19T02:04:48+00:00",
+            "last_traded_at": "2019-08-19T02:04:48+00:00",
+            "last_fetch_at": "2019-08-19T02:23:58+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=BTC-VBK",
+            "coin_id": "veriblock"
+        },
+        {
+            "base": "XBT",
+            "target": "EUR",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 9370.0,
+            "volume": 1717.68609621,
+            "converted_last": {
+                "btc": 1.001804,
+                "eth": 53.076,
+                "usd": 10393.0
+            },
+            "converted_volume": {
+                "btc": 1721,
+                "eth": 91167,
+                "usd": 17851919
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.025614,
+            "timestamp": "2019-08-19T02:21:38+00:00",
+            "last_traded_at": "2019-08-19T02:21:38+00:00",
+            "last_fetch_at": "2019-08-19T02:21:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/xbt/eur",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BNB",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.0026952,
+            "volume": 1465613.9896185813,
+            "converted_last": {
+                "btc": 0.0026952,
+                "eth": 0.14277857,
+                "usd": 27.96
+            },
+            "converted_volume": {
+                "btc": 3950,
+                "eth": 209258,
+                "usd": 40973005
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.003711,
+            "timestamp": "2019-08-19T02:19:52+00:00",
+            "last_traded_at": "2019-08-19T02:19:52+00:00",
+            "last_fetch_at": "2019-08-19T02:19:52+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BNB_BTC",
+            "coin_id": "binancecoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Bitfinex",
+                "identifier": "bitfinex",
+                "has_trading_incentive": false
+            },
+            "last": 10418.0,
+            "volume": 3962.6235884,
+            "converted_last": {
+                "btc": 1.003217,
+                "eth": 53.106,
+                "usd": 10418.0
+            },
+            "converted_volume": {
+                "btc": 3975,
+                "eth": 210439,
+                "usd": 41282613
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.019203,
+            "timestamp": "2019-08-19T02:25:08+00:00",
+            "last_traded_at": "2019-08-19T02:25:08+00:00",
+            "last_fetch_at": "2019-08-19T02:25:28+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "GMO Japan",
+                "identifier": "gmo_japan",
+                "has_trading_incentive": false
+            },
+            "last": 1106629.0,
+            "volume": 526.1688,
+            "converted_last": {
+                "btc": 1.004197,
+                "eth": 53.248,
+                "usd": 10414.11
+            },
+            "converted_volume": {
+                "btc": 528.377,
+                "eth": 28017,
+                "usd": 5479578
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.009058,
+            "timestamp": "2019-08-19T02:13:11+00:00",
+            "last_traded_at": "2019-08-19T02:13:11+00:00",
+            "last_fetch_at": "2019-08-19T02:13:11+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://coin.z.com/jp/corp/information/btc-market/",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 9373.04,
+            "volume": 466.3615784,
+            "converted_last": {
+                "btc": 1.002268,
+                "eth": 53.095,
+                "usd": 10396.11
+            },
+            "converted_volume": {
+                "btc": 467.419,
+                "eth": 24762,
+                "usd": 4848347
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.139976,
+            "timestamp": "2019-08-19T02:19:42+00:00",
+            "last_traded_at": "2019-08-19T02:19:42+00:00",
+            "last_fetch_at": "2019-08-19T02:19:42+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "DSX",
+                "identifier": "dsx",
+                "has_trading_incentive": false
+            },
+            "last": 9390.44937,
+            "volume": 24.80908568,
+            "converted_last": {
+                "btc": 1.004544,
+                "eth": 53.333,
+                "usd": 10416.02
+            },
+            "converted_volume": {
+                "btc": 24.921822,
+                "eth": 1323,
+                "usd": 258412
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.391167,
+            "timestamp": "2019-08-19T02:12:37+00:00",
+            "last_traded_at": "2019-08-19T02:12:37+00:00",
+            "last_fetch_at": "2019-08-19T02:21:01+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Gemini",
+                "identifier": "gemini",
+                "has_trading_incentive": false
+            },
+            "last": 10382.98,
+            "volume": 679.2316324313,
+            "converted_last": {
+                "btc": 1.000838,
+                "eth": 53.024,
+                "usd": 10382.98
+            },
+            "converted_volume": {
+                "btc": 679.801,
+                "eth": 36016,
+                "usd": 7052448
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.048445,
+            "timestamp": "2019-08-19T02:20:12+00:00",
+            "last_traded_at": "2019-08-19T02:20:12+00:00",
+            "last_fetch_at": "2019-08-19T02:20:12+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.018889,
+            "volume": 138928.01863094923,
+            "converted_last": {
+                "btc": 0.018889,
+                "eth": 1.000647,
+                "usd": 195.93
+            },
+            "converted_volume": {
+                "btc": 2624,
+                "eth": 139018,
+                "usd": 27219869
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.021167,
+            "timestamp": "2019-08-19T02:19:38+00:00",
+            "last_traded_at": "2019-08-19T02:19:38+00:00",
+            "last_fetch_at": "2019-08-19T02:19:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=ETH_BTC",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 10385.046,
+            "volume": 350.34552681,
+            "converted_last": {
+                "btc": 1.001064,
+                "eth": 53.036,
+                "usd": 10385.05
+            },
+            "converted_volume": {
+                "btc": 350.718,
+                "eth": 18581,
+                "usd": 3638354
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.076097,
+            "timestamp": "2019-08-19T02:23:59+00:00",
+            "last_traded_at": "2019-08-19T02:23:59+00:00",
+            "last_fetch_at": "2019-08-19T02:23:59+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=USD-BTC",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Coincheck",
+                "identifier": "coincheck",
+                "has_trading_incentive": false
+            },
+            "last": 1104775.0,
+            "volume": 1296.10845704,
+            "converted_last": {
+                "btc": 1.001971,
+                "eth": 53.084,
+                "usd": 10394.73
+            },
+            "converted_volume": {
+                "btc": 1299,
+                "eth": 68803,
+                "usd": 13472703
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.053275,
+            "timestamp": "2019-08-19T02:21:41+00:00",
+            "last_traded_at": "2019-08-19T02:21:41+00:00",
+            "last_fetch_at": "2019-08-19T02:22:34+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Bitbank",
+                "identifier": "bitbank",
+                "has_trading_incentive": false
+            },
+            "last": 1105899.0,
+            "volume": 1372.7656,
+            "converted_last": {
+                "btc": 1.003112,
+                "eth": 53.152,
+                "usd": 10404.74
+            },
+            "converted_volume": {
+                "btc": 1377,
+                "eth": 72965,
+                "usd": 14283269
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.079032,
+            "timestamp": "2019-08-19T02:18:00+00:00",
+            "last_traded_at": "2019-08-19T02:18:00+00:00",
+            "last_fetch_at": "2019-08-19T02:18:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bitbank.cc/app/trade/BTC_JPY",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "LINK",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.00023726,
+            "volume": 8847991.460802495,
+            "converted_last": {
+                "btc": 0.00023726,
+                "eth": 0.01256028,
+                "usd": 2.46
+            },
+            "converted_volume": {
+                "btc": 2099,
+                "eth": 111133,
+                "usd": 21784547
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.105263,
+            "timestamp": "2019-08-19T02:24:30+00:00",
+            "last_traded_at": "2019-08-19T02:24:30+00:00",
+            "last_fetch_at": "2019-08-19T02:24:30+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=LINK_BTC",
+            "coin_id": "chainlink"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 9376.48,
+            "volume": 831.97488925,
+            "converted_last": {
+                "btc": 1.001502,
+                "eth": 53.015,
+                "usd": 10400.19
+            },
+            "converted_volume": {
+                "btc": 833.225,
+                "eth": 44107,
+                "usd": 8652698
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.057225,
+            "timestamp": "2019-08-19T02:25:18+00:00",
+            "last_traded_at": "2019-08-19T02:25:18+00:00",
+            "last_fetch_at": "2019-08-19T02:25:18+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://pro.coinbase.com/trade/BTC-EUR",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 2.735e-05,
+            "volume": 65008569.62449726,
+            "converted_last": {
+                "btc": 2.735e-05,
+                "eth": 0.00144887,
+                "usd": 0.28369
+            },
+            "converted_volume": {
+                "btc": 1778,
+                "eth": 94189,
+                "usd": 18442303
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.073099,
+            "timestamp": "2019-08-19T02:19:50+00:00",
+            "last_traded_at": "2019-08-19T02:19:50+00:00",
+            "last_fetch_at": "2019-08-19T02:19:50+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=XRP_BTC",
+            "coin_id": "ripple"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 0.0189,
+            "volume": 14626.65742673,
+            "converted_last": {
+                "btc": 0.0189,
+                "eth": 1.000486,
+                "usd": 196.27
+            },
+            "converted_volume": {
+                "btc": 276.444,
+                "eth": 14634,
+                "usd": 2870756
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.05291,
+            "timestamp": "2019-08-19T02:25:20+00:00",
+            "last_traded_at": "2019-08-19T02:25:20+00:00",
+            "last_fetch_at": "2019-08-19T02:25:20+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://pro.coinbase.com/trade/ETH-BTC",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "ETH",
+            "target": "XBT",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 0.01887,
+            "volume": 8310.27680701,
+            "converted_last": {
+                "btc": 0.01887,
+                "eth": 0.99973408,
+                "usd": 195.76
+            },
+            "converted_volume": {
+                "btc": 156.815,
+                "eth": 8308,
+                "usd": 1626843
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.052966,
+            "timestamp": "2019-08-19T02:21:38+00:00",
+            "last_traded_at": "2019-08-19T02:21:38+00:00",
+            "last_fetch_at": "2019-08-19T02:21:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/eth/xbt",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "OKCoin",
+                "identifier": "okcoin",
+                "has_trading_incentive": false
+            },
+            "last": 10384.4,
+            "volume": 121.67,
+            "converted_last": {
+                "btc": 1.000975,
+                "eth": 53.032,
+                "usd": 10384.4
+            },
+            "converted_volume": {
+                "btc": 121.789,
+                "eth": 6452,
+                "usd": 1263470
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.078133,
+            "timestamp": "2019-08-19T02:21:29+00:00",
+            "last_traded_at": "2019-08-19T02:21:29+00:00",
+            "last_fetch_at": "2019-08-19T02:21:29+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.okcoin.com/market#product=btc_usd",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Poloniex",
+                "identifier": "poloniex",
+                "has_trading_incentive": false
+            },
+            "last": 10384.25456062,
+            "volume": 361.91541441,
+            "converted_last": {
+                "btc": 1.000637,
+                "eth": 52.973,
+                "usd": 10383.79
+            },
+            "converted_volume": {
+                "btc": 362.146,
+                "eth": 19172,
+                "usd": 3758054
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.011482,
+            "timestamp": "2019-08-19T02:24:49+00:00",
+            "last_traded_at": "2019-08-19T02:24:49+00:00",
+            "last_fetch_at": "2019-08-19T02:24:49+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://poloniex.com/exchange#btc_usdt",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Bitfinex",
+                "identifier": "bitfinex",
+                "has_trading_incentive": false
+            },
+            "last": 1106100.0,
+            "volume": 96.16068451,
+            "converted_last": {
+                "btc": 1.0032,
+                "eth": 53.149,
+                "usd": 10407.2
+            },
+            "converted_volume": {
+                "btc": 96.468,
+                "eth": 5111,
+                "usd": 1000764
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.018064,
+            "timestamp": "2019-08-19T02:22:58+00:00",
+            "last_traded_at": "2019-08-19T02:22:58+00:00",
+            "last_fetch_at": "2019-08-19T02:25:29+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "JPY",
+            "market": {
+                "name": "Zaif",
+                "identifier": "zaif",
+                "has_trading_incentive": false
+            },
+            "last": 1106000.0,
+            "volume": 654.1841,
+            "converted_last": {
+                "btc": 1.002802,
+                "eth": 53.087,
+                "usd": 10406.26
+            },
+            "converted_volume": {
+                "btc": 656.017,
+                "eth": 34729,
+                "usd": 6807610
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.040219,
+            "timestamp": "2019-08-19T02:24:13+00:00",
+            "last_traded_at": "2019-08-19T02:24:13+00:00",
+            "last_fetch_at": "2019-08-19T02:24:13+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://zaif.jp/trade_btc_jpy",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Omgfin",
+                "identifier": "omgfin",
+                "has_trading_incentive": false
+            },
+            "last": 10313.18872387,
+            "volume": 1051.01335948,
+            "converted_last": {
+                "btc": 0.99947302,
+                "eth": 53.305,
+                "usd": 10320.46
+            },
+            "converted_volume": {
+                "btc": 1050,
+                "eth": 56024,
+                "usd": 10846941
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.695429,
+            "timestamp": "2019-08-19T01:34:03+00:00",
+            "last_traded_at": "2019-08-19T01:34:03+00:00",
+            "last_fetch_at": "2019-08-19T02:21:17+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://omgfin.com/exchange/trade/market/BTCUSDT",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Bitfinex",
+                "identifier": "bitfinex",
+                "has_trading_incentive": false
+            },
+            "last": 9389.1,
+            "volume": 404.42493059,
+            "converted_last": {
+                "btc": 1.00285,
+                "eth": 53.087,
+                "usd": 10414.19
+            },
+            "converted_volume": {
+                "btc": 405.578,
+                "eth": 21470,
+                "usd": 4211758
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.010647,
+            "timestamp": "2019-08-19T02:25:04+00:00",
+            "last_traded_at": "2019-08-19T02:25:04+00:00",
+            "last_fetch_at": "2019-08-19T02:25:18+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "LTC",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.007394,
+            "volume": 150204.9785975115,
+            "converted_last": {
+                "btc": 0.007394,
+                "eth": 0.39143001,
+                "usd": 76.73
+            },
+            "converted_volume": {
+                "btc": 1111,
+                "eth": 58795,
+                "usd": 11525057
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.054069,
+            "timestamp": "2019-08-19T02:24:26+00:00",
+            "last_traded_at": "2019-08-19T02:24:26+00:00",
+            "last_fetch_at": "2019-08-19T02:24:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=LTC_BTC",
+            "coin_id": "litecoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Gate.io",
+                "identifier": "gate",
+                "has_trading_incentive": false
+            },
+            "last": 10372.0,
+            "volume": 1521.87612155,
+            "converted_last": {
+                "btc": 1.000715,
+                "eth": 53.042,
+                "usd": 10379.78
+            },
+            "converted_volume": {
+                "btc": 1523,
+                "eth": 80724,
+                "usd": 15796738
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 9.6e-05,
+            "timestamp": "2019-08-19T02:17:17+00:00",
+            "last_traded_at": "2019-08-19T02:17:17+00:00",
+            "last_fetch_at": "2019-08-19T02:17:17+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://gate.io/trade/BTC_USDT",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "GBP",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 8565.55,
+            "volume": 374.0641486,
+            "converted_last": {
+                "btc": 1.00215,
+                "eth": 53.05,
+                "usd": 10406.92
+            },
+            "converted_volume": {
+                "btc": 374.868,
+                "eth": 19844,
+                "usd": 3892855
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.226997,
+            "timestamp": "2019-08-19T02:25:11+00:00",
+            "last_traded_at": "2019-08-19T02:25:11+00:00",
+            "last_fetch_at": "2019-08-19T02:25:11+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://pro.coinbase.com/trade/BTC-GBP",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "KRW",
+            "market": {
+                "name": "GoPax",
+                "identifier": "gopax",
+                "has_trading_incentive": false
+            },
+            "last": 12580000.0,
+            "volume": 451.97375697,
+            "converted_last": {
+                "btc": 1.001498,
+                "eth": 53.059,
+                "usd": 10389.82
+            },
+            "converted_volume": {
+                "btc": 452.651,
+                "eth": 23981,
+                "usd": 4695928
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.079491,
+            "timestamp": "2019-08-19T02:20:11+00:00",
+            "last_traded_at": "2019-08-19T02:20:11+00:00",
+            "last_fetch_at": "2019-08-19T02:20:11+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.gopax.co.kr/exchange/BTC-KRW",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "PAX",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 10386.76,
+            "volume": 496.6372820123879,
+            "converted_last": {
+                "btc": 0.99801609,
+                "eth": 52.834,
+                "usd": 10356.59
+            },
+            "converted_volume": {
+                "btc": 495.652,
+                "eth": 26239,
+                "usd": 5143470
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.079253,
+            "timestamp": "2019-08-19T02:24:28+00:00",
+            "last_traded_at": "2019-08-19T02:24:28+00:00",
+            "last_fetch_at": "2019-08-19T02:24:28+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BTC_PAX",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Huobi US (HBUS)",
+                "identifier": "huobi_us",
+                "has_trading_incentive": false
+            },
+            "last": 0.018896,
+            "volume": 8.8786,
+            "converted_last": {
+                "btc": 0.018896,
+                "eth": 1.001286,
+                "usd": 196.03
+            },
+            "converted_volume": {
+                "btc": 0.16777003,
+                "eth": 8.890018,
+                "usd": 1740.49
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.021164,
+            "timestamp": "2019-08-19T02:22:54+00:00",
+            "last_traded_at": "2019-08-19T02:22:54+00:00",
+            "last_fetch_at": "2019-08-19T02:22:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.huobi.com/markets/?symbols=eth_btc",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "BTC",
+            "target": "TRY",
+            "market": {
+                "name": "BTCTurk",
+                "identifier": "btcturk",
+                "has_trading_incentive": false
+            },
+            "last": 58349.0,
+            "volume": 225.63,
+            "converted_last": {
+                "btc": 1.007104,
+                "eth": 53.366,
+                "usd": 10447.97
+            },
+            "converted_volume": {
+                "btc": 227.233,
+                "eth": 12041,
+                "usd": 2357375
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.476754,
+            "timestamp": "2019-08-19T02:22:34+00:00",
+            "last_traded_at": "2019-08-19T02:22:34+00:00",
+            "last_fetch_at": "2019-08-19T02:22:34+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ERD",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 2.7e-07,
+            "volume": 1615590218.6296296,
+            "converted_last": {
+                "btc": 2.7e-07,
+                "eth": 1.429e-05,
+                "usd": 0.00280184
+            },
+            "converted_volume": {
+                "btc": 436.209,
+                "eth": 23092,
+                "usd": 4526623
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 3.571429,
+            "timestamp": "2019-08-19T02:24:26+00:00",
+            "last_traded_at": "2019-08-19T02:24:26+00:00",
+            "last_fetch_at": "2019-08-19T02:24:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=ERD_BTC",
+            "coin_id": "elrond"
+        },
+        {
+            "base": "BTC",
+            "target": "UST",
+            "market": {
+                "name": "Bitfinex",
+                "identifier": "bitfinex",
+                "has_trading_incentive": false
+            },
+            "last": 10392.0,
+            "volume": 58.48532268,
+            "converted_last": {
+                "btc": 0.9999649,
+                "eth": 53.002,
+                "usd": 10370.26
+            },
+            "converted_volume": {
+                "btc": 58.483,
+                "eth": 3100,
+                "usd": 606508
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.096172,
+            "timestamp": "2019-08-19T02:15:08+00:00",
+            "last_traded_at": "2019-08-19T02:15:08+00:00",
+            "last_fetch_at": "2019-08-19T02:25:16+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "THB",
+            "market": {
+                "name": "BX Thailand",
+                "identifier": "bx_thailand",
+                "has_trading_incentive": false
+            },
+            "last": 317999.0,
+            "volume": 179.23060221,
+            "converted_last": {
+                "btc": 0.99273375,
+                "eth": 52.595,
+                "usd": 10298.63
+            },
+            "converted_volume": {
+                "btc": 177.928,
+                "eth": 9427,
+                "usd": 1845829
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.156918,
+            "timestamp": "2019-08-19T02:23:20+00:00",
+            "last_traded_at": "2019-08-19T02:23:20+00:00",
+            "last_fetch_at": "2019-08-19T02:23:20+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Gate.io",
+                "identifier": "gate",
+                "has_trading_incentive": false
+            },
+            "last": 0.018853,
+            "volume": 9714.98711935,
+            "converted_last": {
+                "btc": 0.018853,
+                "eth": 0.9992903,
+                "usd": 195.55
+            },
+            "converted_volume": {
+                "btc": 183.157,
+                "eth": 9708,
+                "usd": 1899766
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.11639,
+            "timestamp": "2019-08-19T02:17:28+00:00",
+            "last_traded_at": "2019-08-19T02:17:28+00:00",
+            "last_fetch_at": "2019-08-19T02:17:28+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://gate.io/trade/ETH_BTC",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "MTL",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 2.98e-05,
+            "volume": 46082795.65872483,
+            "converted_last": {
+                "btc": 2.98e-05,
+                "eth": 0.00157758,
+                "usd": 0.30924
+            },
+            "converted_volume": {
+                "btc": 1373,
+                "eth": 72699,
+                "usd": 14250641
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.33557,
+            "timestamp": "2019-08-19T02:24:24+00:00",
+            "last_traded_at": "2019-08-19T02:24:24+00:00",
+            "last_fetch_at": "2019-08-19T02:24:24+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=MTL_BTC",
+            "coin_id": "metal"
+        },
+        {
+            "base": "DUSK",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 2.032e-05,
+            "volume": 58758965.61712598,
+            "converted_last": {
+                "btc": 2.032e-05,
+                "eth": 0.00107572,
+                "usd": 0.210864
+            },
+            "converted_volume": {
+                "btc": 1194,
+                "eth": 63208,
+                "usd": 12390167
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.098425,
+            "timestamp": "2019-08-19T02:24:23+00:00",
+            "last_traded_at": "2019-08-19T02:24:23+00:00",
+            "last_fetch_at": "2019-08-19T02:24:23+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=DUSK_BTC",
+            "coin_id": "dusk-network"
+        },
+        {
+            "base": "BTC",
+            "target": "IDR",
+            "market": {
+                "name": "Indodax",
+                "identifier": "indodax",
+                "has_trading_incentive": false
+            },
+            "last": 148378000.0,
+            "volume": 122.47487982,
+            "converted_last": {
+                "btc": 1.006987,
+                "eth": 53.35,
+                "usd": 10446.78
+            },
+            "converted_volume": {
+                "btc": 123.331,
+                "eth": 6534,
+                "usd": 1279468
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.000674,
+            "timestamp": "2019-08-19T02:21:31+00:00",
+            "last_traded_at": "2019-08-19T02:21:31+00:00",
+            "last_fetch_at": "2019-08-19T02:21:31+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "DOGE",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 2.6e-07,
+            "volume": 131833489.42307693,
+            "converted_last": {
+                "btc": 2.6e-07,
+                "eth": 1.376e-05,
+                "usd": 0.00269807
+            },
+            "converted_volume": {
+                "btc": 34.276707,
+                "eth": 1815,
+                "usd": 355696
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 3.703704,
+            "timestamp": "2019-08-19T02:24:26+00:00",
+            "last_traded_at": "2019-08-19T02:24:26+00:00",
+            "last_fetch_at": "2019-08-19T02:24:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=DOGE_BTC",
+            "coin_id": "dogecoin"
+        },
+        {
+            "base": "BTC",
+            "target": "GBP",
+            "market": {
+                "name": "Bitfinex",
+                "identifier": "bitfinex",
+                "has_trading_incentive": false
+            },
+            "last": 8567.0,
+            "volume": 26.06261272,
+            "converted_last": {
+                "btc": 1.003342,
+                "eth": 53.157,
+                "usd": 10408.68
+            },
+            "converted_volume": {
+                "btc": 26.149719,
+                "eth": 1385,
+                "usd": 271277
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.010496,
+            "timestamp": "2019-08-19T02:23:11+00:00",
+            "last_traded_at": "2019-08-19T02:23:11+00:00",
+            "last_fetch_at": "2019-08-19T02:25:37+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Bitfinex",
+                "identifier": "bitfinex",
+                "has_trading_incentive": false
+            },
+            "last": 2.734e-05,
+            "volume": 5043275.70922638,
+            "converted_last": {
+                "btc": 2.734e-05,
+                "eth": 0.00144846,
+                "usd": 0.283625
+            },
+            "converted_volume": {
+                "btc": 137.883,
+                "eth": 7305,
+                "usd": 1430401
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.072966,
+            "timestamp": "2019-08-19T02:22:57+00:00",
+            "last_traded_at": "2019-08-19T02:22:57+00:00",
+            "last_fetch_at": "2019-08-19T02:25:18+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "ripple"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Huobi US (HBUS)",
+                "identifier": "huobi_us",
+                "has_trading_incentive": false
+            },
+            "last": 10389.41,
+            "volume": 1.1808389755122597,
+            "converted_last": {
+                "btc": 1.001134,
+                "eth": 53.049,
+                "usd": 10386.03
+            },
+            "converted_volume": {
+                "btc": 1.182178,
+                "eth": 62.643,
+                "usd": 12264.23
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.030021,
+            "timestamp": "2019-08-19T02:22:54+00:00",
+            "last_traded_at": "2019-08-19T02:22:54+00:00",
+            "last_fetch_at": "2019-08-19T02:22:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.huobi.com/markets/?symbols=btc_usdt",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 10389.7676692,
+            "volume": 173.0061206,
+            "converted_last": {
+                "btc": 1.001168,
+                "eth": 53.041,
+                "usd": 10386.13
+            },
+            "converted_volume": {
+                "btc": 173.208,
+                "eth": 9176,
+                "usd": 1796864
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.06458,
+            "timestamp": "2019-08-19T02:23:58+00:00",
+            "last_traded_at": "2019-08-19T02:23:58+00:00",
+            "last_fetch_at": "2019-08-19T02:23:58+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=USDT-BTC",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "LTC",
+            "target": "BTC",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 0.007402,
+            "volume": 30375.33433091,
+            "converted_last": {
+                "btc": 0.007402,
+                "eth": 0.39183058,
+                "usd": 76.87
+            },
+            "converted_volume": {
+                "btc": 224.838,
+                "eth": 11902,
+                "usd": 2334853
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.067577,
+            "timestamp": "2019-08-19T02:25:08+00:00",
+            "last_traded_at": "2019-08-19T02:25:08+00:00",
+            "last_fetch_at": "2019-08-19T02:25:08+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://pro.coinbase.com/trade/LTC-BTC",
+            "coin_id": "litecoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "CEX.IO",
+                "identifier": "cex",
+                "has_trading_incentive": false
+            },
+            "last": 10413.7,
+            "volume": 74.99230455,
+            "converted_last": {
+                "btc": 1.003799,
+                "eth": 53.181,
+                "usd": 10413.7
+            },
+            "converted_volume": {
+                "btc": 75.277,
+                "eth": 3988,
+                "usd": 780947
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.235351,
+            "timestamp": "2019-08-19T02:21:43+00:00",
+            "last_traded_at": "2019-08-19T02:21:43+00:00",
+            "last_fetch_at": "2019-08-19T02:21:43+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "AUD",
+            "market": {
+                "name": "BTCMarkets",
+                "identifier": "btcmarkets",
+                "has_trading_incentive": false
+            },
+            "last": 15378.53,
+            "volume": 82.87788,
+            "converted_last": {
+                "btc": 1.004856,
+                "eth": 53.237,
+                "usd": 10424.38
+            },
+            "converted_volume": {
+                "btc": 83.28,
+                "eth": 4412,
+                "usd": 863951
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.275973,
+            "timestamp": "2019-08-19T02:23:24+00:00",
+            "last_traded_at": "2019-08-19T02:23:24+00:00",
+            "last_fetch_at": "2019-08-19T02:23:24+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "TUSD",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 10400.01,
+            "volume": 378.1587170745586,
+            "converted_last": {
+                "btc": 1.0025,
+                "eth": 53.071,
+                "usd": 10403.12
+            },
+            "converted_volume": {
+                "btc": 379.104,
+                "eth": 20069,
+                "usd": 3934032
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.094079,
+            "timestamp": "2019-08-19T02:24:28+00:00",
+            "last_traded_at": "2019-08-19T02:24:28+00:00",
+            "last_fetch_at": "2019-08-19T02:24:28+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BTC_TUSD",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 0.01889879,
+            "volume": 3448.75493979,
+            "converted_last": {
+                "btc": 0.01889879,
+                "eth": 1.001249,
+                "usd": 196.06
+            },
+            "converted_volume": {
+                "btc": 65.177,
+                "eth": 3453,
+                "usd": 676150
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.03839,
+            "timestamp": "2019-08-19T02:23:59+00:00",
+            "last_traded_at": "2019-08-19T02:23:59+00:00",
+            "last_fetch_at": "2019-08-19T02:23:59+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=BTC-ETH",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "EOS",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.0003569,
+            "volume": 1901548.5352199497,
+            "converted_last": {
+                "btc": 0.0003569,
+                "eth": 0.01889388,
+                "usd": 3.7
+            },
+            "converted_volume": {
+                "btc": 678.663,
+                "eth": 35928,
+                "usd": 7042604
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.05596,
+            "timestamp": "2019-08-19T02:24:27+00:00",
+            "last_traded_at": "2019-08-19T02:24:27+00:00",
+            "last_fetch_at": "2019-08-19T02:24:27+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=EOS_BTC",
+            "coin_id": "eos"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 0.01889978,
+            "volume": 2250.23604545,
+            "converted_last": {
+                "btc": 0.01889978,
+                "eth": 1.001218,
+                "usd": 196.04
+            },
+            "converted_volume": {
+                "btc": 42.528966,
+                "eth": 2253,
+                "usd": 441136
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.186931,
+            "timestamp": "2019-08-19T02:19:42+00:00",
+            "last_traded_at": "2019-08-19T02:19:42+00:00",
+            "last_fetch_at": "2019-08-19T02:19:42+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "ADA",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 4.84e-06,
+            "volume": 112295775.48347108,
+            "converted_last": {
+                "btc": 4.84e-06,
+                "eth": 0.00025622,
+                "usd": 0.050226
+            },
+            "converted_volume": {
+                "btc": 543.512,
+                "eth": 28773,
+                "usd": 5640117
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.206612,
+            "timestamp": "2019-08-19T02:24:25+00:00",
+            "last_traded_at": "2019-08-19T02:24:25+00:00",
+            "last_fetch_at": "2019-08-19T02:24:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=ADA_BTC",
+            "coin_id": "cardano"
+        },
+        {
+            "base": "BCH",
+            "target": "BTC",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 0.03058339,
+            "volume": 756.19578263,
+            "converted_last": {
+                "btc": 0.03058339,
+                "eth": 1.62777,
+                "usd": 316.76
+            },
+            "converted_volume": {
+                "btc": 23.127031,
+                "eth": 1231,
+                "usd": 239532
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.207291,
+            "timestamp": "2019-08-19T01:51:58+00:00",
+            "last_traded_at": "2019-08-19T01:51:58+00:00",
+            "last_fetch_at": "2019-08-19T02:24:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=BTC-BCH",
+            "coin_id": "bitcoin-cash"
+        },
+        {
+            "base": "BTC",
+            "target": "MXN",
+            "market": {
+                "name": "Bitso",
+                "identifier": "bitso",
+                "has_trading_incentive": false
+            },
+            "last": 204199.99,
+            "volume": 45.54599782,
+            "converted_last": {
+                "btc": 1.001961,
+                "eth": 53.108,
+                "usd": 10392.7
+            },
+            "converted_volume": {
+                "btc": 45.635335,
+                "eth": 2419,
+                "usd": 473346
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.52614,
+            "timestamp": "2019-08-19T02:17:52+00:00",
+            "last_traded_at": "2019-08-19T02:17:52+00:00",
+            "last_fetch_at": "2019-08-19T02:17:52+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BCHABC",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.030694,
+            "volume": 15601.19026715319,
+            "converted_last": {
+                "btc": 0.030694,
+                "eth": 1.624906,
+                "usd": 318.52
+            },
+            "converted_volume": {
+                "btc": 478.863,
+                "eth": 25350,
+                "usd": 4969246
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.026049,
+            "timestamp": "2019-08-19T02:24:27+00:00",
+            "last_traded_at": "2019-08-19T02:24:27+00:00",
+            "last_fetch_at": "2019-08-19T02:24:27+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BCHABC_BTC",
+            "coin_id": "bitcoin-cash"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Coinbase Pro",
+                "identifier": "gdax",
+                "has_trading_incentive": false
+            },
+            "last": 2.741e-05,
+            "volume": 12834574.0,
+            "converted_last": {
+                "btc": 2.741e-05,
+                "eth": 0.00145097,
+                "usd": 0.284642
+            },
+            "converted_volume": {
+                "btc": 351.796,
+                "eth": 18623,
+                "usd": 3653254
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.109449,
+            "timestamp": "2019-08-19T02:25:08+00:00",
+            "last_traded_at": "2019-08-19T02:25:08+00:00",
+            "last_fetch_at": "2019-08-19T02:25:08+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://pro.coinbase.com/trade/XRP-BTC",
+            "coin_id": "ripple"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Gemini",
+                "identifier": "gemini",
+                "has_trading_incentive": false
+            },
+            "last": 0.01879,
+            "volume": 1093.22094745,
+            "converted_last": {
+                "btc": 0.01879,
+                "eth": 1.000182,
+                "usd": 194.58
+            },
+            "converted_volume": {
+                "btc": 20.541622,
+                "eth": 1093,
+                "usd": 212717
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.105876,
+            "timestamp": "2019-08-19T01:57:52+00:00",
+            "last_traded_at": "2019-08-19T01:57:52+00:00",
+            "last_fetch_at": "2019-08-19T02:19:55+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "BCH",
+            "target": "BTC",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 0.030677,
+            "volume": 999.44568792,
+            "converted_last": {
+                "btc": 0.030677,
+                "eth": 1.63292,
+                "usd": 317.67
+            },
+            "converted_volume": {
+                "btc": 30.659995,
+                "eth": 1632,
+                "usd": 317497
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.229046,
+            "timestamp": "2019-08-19T01:57:49+00:00",
+            "last_traded_at": "2019-08-19T01:57:49+00:00",
+            "last_fetch_at": "2019-08-19T02:05:11+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin-cash"
+        },
+        {
+            "base": "BTC",
+            "target": "USDT",
+            "market": {
+                "name": "Oceanex",
+                "identifier": "oceanex",
+                "has_trading_incentive": false
+            },
+            "last": 10341.61,
+            "volume": 450.248505,
+            "converted_last": {
+                "btc": 0.99652787,
+                "eth": 52.796,
+                "usd": 10338.27
+            },
+            "converted_volume": {
+                "btc": 448.685,
+                "eth": 23771,
+                "usd": 4654789
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.359294,
+            "timestamp": "2019-08-19T02:20:23+00:00",
+            "last_traded_at": "2019-08-19T02:20:23+00:00",
+            "last_fetch_at": "2019-08-19T02:20:23+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://oceanex.pro/trades/btcusdt",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Poloniex",
+                "identifier": "poloniex",
+                "has_trading_incentive": false
+            },
+            "last": 0.01889501,
+            "volume": 6481.70580001,
+            "converted_last": {
+                "btc": 0.01889501,
+                "eth": 1.000281,
+                "usd": 196.08
+            },
+            "converted_volume": {
+                "btc": 122.472,
+                "eth": 6484,
+                "usd": 1270913
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.015504,
+            "timestamp": "2019-08-19T02:24:36+00:00",
+            "last_traded_at": "2019-08-19T02:24:36+00:00",
+            "last_fetch_at": "2019-08-19T02:24:36+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://poloniex.com/exchange#eth_btc",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "MATIC",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 1.34e-06,
+            "volume": 436853489.3134328,
+            "converted_last": {
+                "btc": 1.34e-06,
+                "eth": 7.094e-05,
+                "usd": 0.01390542
+            },
+            "converted_volume": {
+                "btc": 585.384,
+                "eth": 30990,
+                "usd": 6074631
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.740741,
+            "timestamp": "2019-08-19T02:24:26+00:00",
+            "last_traded_at": "2019-08-19T02:24:26+00:00",
+            "last_fetch_at": "2019-08-19T02:24:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=MATIC_BTC",
+            "coin_id": "matic-network"
+        },
+        {
+            "base": "TRX",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 1.73e-06,
+            "volume": 159330363.02890173,
+            "converted_last": {
+                "btc": 1.73e-06,
+                "eth": 9.158e-05,
+                "usd": 0.01795252
+            },
+            "converted_volume": {
+                "btc": 275.642,
+                "eth": 14592,
+                "usd": 2860381
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.578035,
+            "timestamp": "2019-08-19T02:24:25+00:00",
+            "last_traded_at": "2019-08-19T02:24:25+00:00",
+            "last_fetch_at": "2019-08-19T02:24:25+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=TRX_BTC",
+            "coin_id": "tron"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Poloniex",
+                "identifier": "poloniex",
+                "has_trading_incentive": false
+            },
+            "last": 2.736e-05,
+            "volume": 5651033.70429845,
+            "converted_last": {
+                "btc": 2.736e-05,
+                "eth": 0.00144841,
+                "usd": 0.28392
+            },
+            "converted_volume": {
+                "btc": 154.612,
+                "eth": 8185,
+                "usd": 1604439
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.073019,
+            "timestamp": "2019-08-19T02:24:48+00:00",
+            "last_traded_at": "2019-08-19T02:24:48+00:00",
+            "last_fetch_at": "2019-08-19T02:24:48+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://poloniex.com/exchange#xrp_btc",
+            "coin_id": "ripple"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "DSX",
+                "identifier": "dsx",
+                "has_trading_incentive": false
+            },
+            "last": 10389.76001,
+            "volume": 34.77619418,
+            "converted_last": {
+                "btc": 1.001491,
+                "eth": 53.059,
+                "usd": 10389.76
+            },
+            "converted_volume": {
+                "btc": 34.828059,
+                "eth": 1845,
+                "usd": 361316
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.381799,
+            "timestamp": "2019-08-19T02:21:01+00:00",
+            "last_traded_at": "2019-08-19T02:21:01+00:00",
+            "last_fetch_at": "2019-08-19T02:21:01+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Coindeal",
+                "identifier": "coindeal",
+                "has_trading_incentive": false
+            },
+            "last": 10347.97,
+            "volume": 734.01593262,
+            "converted_last": {
+                "btc": 0.99762642,
+                "eth": 52.849,
+                "usd": 10347.97
+            },
+            "converted_volume": {
+                "btc": 732.274,
+                "eth": 38792,
+                "usd": 7595575
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.111133,
+            "timestamp": "2019-08-19T02:19:50+00:00",
+            "last_traded_at": "2019-08-19T02:19:50+00:00",
+            "last_fetch_at": "2019-08-19T02:19:50+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://frontend.coindeal.com/market/trade.html?pair=BTC/USD",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "Huobi US (HBUS)",
+                "identifier": "huobi_us",
+                "has_trading_incentive": false
+            },
+            "last": 10392.21,
+            "volume": 2.523518,
+            "converted_last": {
+                "btc": 1.001729,
+                "eth": 53.081,
+                "usd": 10392.21
+            },
+            "converted_volume": {
+                "btc": 2.527882,
+                "eth": 133.951,
+                "usd": 26225
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.100445,
+            "timestamp": "2019-08-19T02:22:54+00:00",
+            "last_traded_at": "2019-08-19T02:22:54+00:00",
+            "last_fetch_at": "2019-08-19T02:22:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.huobi.com/markets/?symbols=btc_usd",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "USD",
+            "market": {
+                "name": "EXMO",
+                "identifier": "exmo",
+                "has_trading_incentive": false
+            },
+            "last": 10535.27,
+            "volume": 380.88848657,
+            "converted_last": {
+                "btc": 1.015517,
+                "eth": 53.802,
+                "usd": 10535.27
+            },
+            "converted_volume": {
+                "btc": 386.799,
+                "eth": 20493,
+                "usd": 4012763
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.073145,
+            "timestamp": "2019-08-19T02:20:40+00:00",
+            "last_traded_at": "2019-08-19T02:20:40+00:00",
+            "last_fetch_at": "2019-08-19T02:20:40+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://exmo.com/en/trade#?pair=BTC_USD",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 2.731e-05,
+            "volume": 3863734.10465011,
+            "converted_last": {
+                "btc": 2.731e-05,
+                "eth": 0.00144576,
+                "usd": 0.283401
+            },
+            "converted_volume": {
+                "btc": 105.519,
+                "eth": 5586,
+                "usd": 1094985
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.109569,
+            "timestamp": "2019-08-19T02:24:00+00:00",
+            "last_traded_at": "2019-08-19T02:24:00+00:00",
+            "last_fetch_at": "2019-08-19T02:24:00+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=BTC-XRP",
+            "coin_id": "ripple"
+        },
+        {
+            "base": "BCH",
+            "target": "XBT",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 0.0307,
+            "volume": 1045.29898746,
+            "converted_last": {
+                "btc": 0.0307,
+                "eth": 1.626488,
+                "usd": 318.49
+            },
+            "converted_volume": {
+                "btc": 32.090679,
+                "eth": 1700,
+                "usd": 332918
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.130124,
+            "timestamp": "2019-08-19T02:21:38+00:00",
+            "last_traded_at": "2019-08-19T02:21:38+00:00",
+            "last_fetch_at": "2019-08-19T02:21:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/bch/xbt",
+            "coin_id": "bitcoin-cash"
+        },
+        {
+            "base": "XRP",
+            "target": "XBT",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 2.736e-05,
+            "volume": 3219401.53141638,
+            "converted_last": {
+                "btc": 2.736e-05,
+                "eth": 0.00144953,
+                "usd": 0.283841
+            },
+            "converted_volume": {
+                "btc": 88.083,
+                "eth": 4667,
+                "usd": 913797
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.109649,
+            "timestamp": "2019-08-19T02:21:37+00:00",
+            "last_traded_at": "2019-08-19T02:21:37+00:00",
+            "last_fetch_at": "2019-08-19T02:21:37+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/xrp/xbt",
+            "coin_id": "ripple"
+        },
+        {
+            "base": "XMR",
+            "target": "BTC",
+            "market": {
+                "name": "Poloniex",
+                "identifier": "poloniex",
+                "has_trading_incentive": false
+            },
+            "last": 0.00829804,
+            "volume": 8894.68999096,
+            "converted_last": {
+                "btc": 0.00829804,
+                "eth": 0.43928887,
+                "usd": 86.11
+            },
+            "converted_volume": {
+                "btc": 73.808,
+                "eth": 3907,
+                "usd": 765924
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.009037,
+            "timestamp": "2019-08-19T02:24:36+00:00",
+            "last_traded_at": "2019-08-19T02:24:36+00:00",
+            "last_fetch_at": "2019-08-19T02:24:36+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://poloniex.com/exchange#xmr_btc",
+            "coin_id": "monero"
+        },
+        {
+            "base": "BSV",
+            "target": "BTC",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 0.01331169,
+            "volume": 1375.05898548,
+            "converted_last": {
+                "btc": 0.01331169,
+                "eth": 0.70524721,
+                "usd": 138.1
+            },
+            "converted_volume": {
+                "btc": 18.304359,
+                "eth": 969.757,
+                "usd": 189890
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.324304,
+            "timestamp": "2019-08-19T02:23:46+00:00",
+            "last_traded_at": "2019-08-19T02:23:46+00:00",
+            "last_fetch_at": "2019-08-19T02:23:46+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=BTC-BSV",
+            "coin_id": "bitcoin-cash-sv"
+        },
+        {
+            "base": "BCH",
+            "target": "BTC",
+            "market": {
+                "name": "Huobi US (HBUS)",
+                "identifier": "huobi_us",
+                "has_trading_incentive": false
+            },
+            "last": 0.030715,
+            "volume": 14.5423,
+            "converted_last": {
+                "btc": 0.030715,
+                "eth": 1.628445,
+                "usd": 318.53
+            },
+            "converted_volume": {
+                "btc": 0.44666674,
+                "eth": 23.681336,
+                "usd": 4632.19
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.016276,
+            "timestamp": "2019-08-19T02:14:46+00:00",
+            "last_traded_at": "2019-08-19T02:14:46+00:00",
+            "last_fetch_at": "2019-08-19T02:22:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.huobi.com/markets/?symbols=bch_btc",
+            "coin_id": "bitcoin-cash"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "TheRockTrading",
+                "identifier": "therocktrading",
+                "has_trading_incentive": false
+            },
+            "last": 9384.4,
+            "volume": 7.1416,
+            "converted_last": {
+                "btc": 1.005237,
+                "eth": 53.509,
+                "usd": 10409.65
+            },
+            "converted_volume": {
+                "btc": 7.178999,
+                "eth": 382.137,
+                "usd": 74342
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.538088,
+            "timestamp": "2019-08-19T01:56:14+00:00",
+            "last_traded_at": "2019-08-19T01:56:14+00:00",
+            "last_fetch_at": "2019-08-19T02:21:16+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.therocktrading.com/en/offers/BTCEUR",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "BRL",
+            "market": {
+                "name": "Mercado Bitcoin",
+                "identifier": "mercado_bitcoin",
+                "has_trading_incentive": false
+            },
+            "last": 41929.99,
+            "volume": 63.80189746,
+            "converted_last": {
+                "btc": 1.009026,
+                "eth": 53.483,
+                "usd": 10465.97
+            },
+            "converted_volume": {
+                "btc": 64.378,
+                "eth": 3412,
+                "usd": 667749
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.071524,
+            "timestamp": "2019-08-19T02:17:31+00:00",
+            "last_traded_at": "2019-08-19T02:17:31+00:00",
+            "last_fetch_at": "2019-08-19T02:17:31+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "HC",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.0003053,
+            "volume": 2262930.0583688174,
+            "converted_last": {
+                "btc": 0.0003053,
+                "eth": 0.01616224,
+                "usd": 3.17
+            },
+            "converted_volume": {
+                "btc": 690.873,
+                "eth": 36574,
+                "usd": 7169308
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.0982,
+            "timestamp": "2019-08-19T02:24:15+00:00",
+            "last_traded_at": "2019-08-19T02:24:15+00:00",
+            "last_fetch_at": "2019-08-19T02:24:15+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=HC_BTC",
+            "coin_id": "hshare"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "Shortex",
+                "identifier": "shortex",
+                "has_trading_incentive": false
+            },
+            "last": 0.01889978,
+            "volume": 28293.65400139,
+            "converted_last": {
+                "btc": 0.01889978,
+                "eth": 1.001312,
+                "usd": 196.07
+            },
+            "converted_volume": {
+                "btc": 534.744,
+                "eth": 28331,
+                "usd": 5547586
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.053175,
+            "timestamp": "2019-08-19T02:20:10+00:00",
+            "last_traded_at": "2019-08-19T02:20:10+00:00",
+            "last_fetch_at": "2019-08-19T02:20:10+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://api.shortex.net/trading/ethbtc",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "XMR",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.008291,
+            "volume": 41189.2512362803,
+            "converted_last": {
+                "btc": 0.008291,
+                "eth": 0.43891618,
+                "usd": 86.04
+            },
+            "converted_volume": {
+                "btc": 341.5,
+                "eth": 18079,
+                "usd": 3543808
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.072307,
+            "timestamp": "2019-08-19T02:24:23+00:00",
+            "last_traded_at": "2019-08-19T02:24:23+00:00",
+            "last_fetch_at": "2019-08-19T02:24:23+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=XMR_BTC",
+            "coin_id": "monero"
+        },
+        {
+            "base": "COS",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 2.94e-06,
+            "volume": 223760948.37414965,
+            "converted_last": {
+                "btc": 2.94e-06,
+                "eth": 0.00015564,
+                "usd": 0.03050891
+            },
+            "converted_volume": {
+                "btc": 657.857,
+                "eth": 34826,
+                "usd": 6826702
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.338983,
+            "timestamp": "2019-08-19T02:24:27+00:00",
+            "last_traded_at": "2019-08-19T02:24:27+00:00",
+            "last_fetch_at": "2019-08-19T02:24:27+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=COS_BTC",
+            "coin_id": "contentos"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Huobi US (HBUS)",
+                "identifier": "huobi_us",
+                "has_trading_incentive": false
+            },
+            "last": 2.736e-05,
+            "volume": 31880.0,
+            "converted_last": {
+                "btc": 2.736e-05,
+                "eth": 0.00144979,
+                "usd": 0.28384
+            },
+            "converted_volume": {
+                "btc": 0.8722368,
+                "eth": 46.219225,
+                "usd": 9048.82
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.073046,
+            "timestamp": "2019-08-19T02:22:54+00:00",
+            "last_traded_at": "2019-08-19T02:22:54+00:00",
+            "last_fetch_at": "2019-08-19T02:22:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.huobi.com/markets/?symbols=xrp_btc",
+            "coin_id": "ripple"
+        },
+        {
+            "base": "XBT",
+            "target": "ZAR",
+            "market": {
+                "name": "Luno",
+                "identifier": "luno",
+                "has_trading_incentive": false
+            },
+            "last": 165910.0,
+            "volume": 86.358128,
+            "converted_last": {
+                "btc": 1.045361,
+                "eth": 55.383,
+                "usd": 10844.88
+            },
+            "converted_volume": {
+                "btc": 90.275,
+                "eth": 4783,
+                "usd": 936543
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.000603,
+            "timestamp": "2019-08-19T02:20:44+00:00",
+            "last_traded_at": "2019-08-19T02:20:44+00:00",
+            "last_fetch_at": "2019-08-19T02:20:44+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.luno.com/trade/XBTZAR",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XRP",
+            "target": "BTC",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 2.736e-05,
+            "volume": 2908548.28740124,
+            "converted_last": {
+                "btc": 2.736e-05,
+                "eth": 0.0014494,
+                "usd": 0.283794
+            },
+            "converted_volume": {
+                "btc": 79.578,
+                "eth": 4216,
+                "usd": 825429
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.292077,
+            "timestamp": "2019-08-19T02:19:30+00:00",
+            "last_traded_at": "2019-08-19T02:19:30+00:00",
+            "last_fetch_at": "2019-08-19T02:19:30+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "ripple"
+        },
+        {
+            "base": "LTC",
+            "target": "BTC",
+            "market": {
+                "name": "Bitstamp",
+                "identifier": "bitstamp",
+                "has_trading_incentive": false
+            },
+            "last": 0.00739171,
+            "volume": 8083.3303502,
+            "converted_last": {
+                "btc": 0.00739171,
+                "eth": 0.39157679,
+                "usd": 76.67
+            },
+            "converted_volume": {
+                "btc": 59.75,
+                "eth": 3165,
+                "usd": 619758
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.267741,
+            "timestamp": "2019-08-19T02:19:42+00:00",
+            "last_traded_at": "2019-08-19T02:19:42+00:00",
+            "last_fetch_at": "2019-08-19T02:19:42+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "litecoin"
+        },
+        {
+            "base": "XMR",
+            "target": "XBT",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 0.008341,
+            "volume": 23958.58544002,
+            "converted_last": {
+                "btc": 0.008341,
+                "eth": 0.44190683,
+                "usd": 86.53
+            },
+            "converted_volume": {
+                "btc": 199.839,
+                "eth": 10587,
+                "usd": 2073183
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.084135,
+            "timestamp": "2019-08-19T02:21:27+00:00",
+            "last_traded_at": "2019-08-19T02:21:27+00:00",
+            "last_fetch_at": "2019-08-19T02:21:27+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/xmr/xbt",
+            "coin_id": "monero"
+        },
+        {
+            "base": "VET",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 4.3e-07,
+            "volume": 233534178.20930234,
+            "converted_last": {
+                "btc": 4.3e-07,
+                "eth": 2.278e-05,
+                "usd": 0.00446021
+            },
+            "converted_volume": {
+                "btc": 100.42,
+                "eth": 5320,
+                "usd": 1041612
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 2.272727,
+            "timestamp": "2019-08-19T02:19:50+00:00",
+            "last_traded_at": "2019-08-19T02:19:50+00:00",
+            "last_fetch_at": "2019-08-19T02:19:50+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=VET_BTC",
+            "coin_id": "vechain"
+        },
+        {
+            "base": "LTC",
+            "target": "BTC",
+            "market": {
+                "name": "Huobi US (HBUS)",
+                "identifier": "huobi_us",
+                "has_trading_incentive": false
+            },
+            "last": 0.007397,
+            "volume": 59.9625,
+            "converted_last": {
+                "btc": 0.007397,
+                "eth": 0.39196192,
+                "usd": 76.74
+            },
+            "converted_volume": {
+                "btc": 0.44354261,
+                "eth": 23.503016,
+                "usd": 4601.43
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.081103,
+            "timestamp": "2019-08-19T02:22:54+00:00",
+            "last_traded_at": "2019-08-19T02:22:54+00:00",
+            "last_fetch_at": "2019-08-19T02:22:54+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.huobi.com/markets/?symbols=ltc_btc",
+            "coin_id": "litecoin"
+        },
+        {
+            "base": "LTC",
+            "target": "BTC",
+            "market": {
+                "name": "Poloniex",
+                "identifier": "poloniex",
+                "has_trading_incentive": false
+            },
+            "last": 0.00740497,
+            "volume": 8095.33560803,
+            "converted_last": {
+                "btc": 0.00740497,
+                "eth": 0.39201075,
+                "usd": 76.84
+            },
+            "converted_volume": {
+                "btc": 59.946,
+                "eth": 3173,
+                "usd": 622067
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.067613,
+            "timestamp": "2019-08-19T02:24:48+00:00",
+            "last_traded_at": "2019-08-19T02:24:48+00:00",
+            "last_fetch_at": "2019-08-19T02:24:48+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://poloniex.com/exchange#ltc_btc",
+            "coin_id": "litecoin"
+        },
+        {
+            "base": "LTC",
+            "target": "BTC",
+            "market": {
+                "name": "Bittrex",
+                "identifier": "bittrex",
+                "has_trading_incentive": false
+            },
+            "last": 0.00739702,
+            "volume": 4381.30607697,
+            "converted_last": {
+                "btc": 0.00739702,
+                "eth": 0.39189071,
+                "usd": 76.74
+            },
+            "converted_volume": {
+                "btc": 32.408609,
+                "eth": 1717,
+                "usd": 336207
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.111802,
+            "timestamp": "2019-08-19T02:23:58+00:00",
+            "last_traded_at": "2019-08-19T02:23:58+00:00",
+            "last_fetch_at": "2019-08-19T02:23:58+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://bittrex.com/Market/Index?MarketName=BTC-LTC",
+            "coin_id": "litecoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "CEX.IO",
+                "identifier": "cex",
+                "has_trading_incentive": false
+            },
+            "last": 9402.4,
+            "volume": 6.66137264,
+            "converted_last": {
+                "btc": 1.00566,
+                "eth": 53.318,
+                "usd": 10429.28
+            },
+            "converted_volume": {
+                "btc": 6.699074,
+                "eth": 355.171,
+                "usd": 69473
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.212712,
+            "timestamp": "2019-08-19T02:14:24+00:00",
+            "last_traded_at": "2019-08-19T02:14:24+00:00",
+            "last_fetch_at": "2019-08-19T02:22:34+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": null,
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "NEO",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 0.000956,
+            "volume": 116063.29321129707,
+            "converted_last": {
+                "btc": 0.000956,
+                "eth": 0.05064422,
+                "usd": 9.92
+            },
+            "converted_volume": {
+                "btc": 110.957,
+                "eth": 5878,
+                "usd": 1150906
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.104603,
+            "timestamp": "2019-08-19T02:19:50+00:00",
+            "last_traded_at": "2019-08-19T02:19:50+00:00",
+            "last_fetch_at": "2019-08-19T02:19:50+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=NEO_BTC",
+            "coin_id": "neo"
+        },
+        {
+            "base": "BTC",
+            "target": "USDS",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 10376.0,
+            "volume": 8.689938949565343,
+            "converted_last": {
+                "btc": 1.001133,
+                "eth": 53.152,
+                "usd": 10372.35
+            },
+            "converted_volume": {
+                "btc": 8.699782,
+                "eth": 461.887,
+                "usd": 90135
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.249784,
+            "timestamp": "2019-08-19T02:11:25+00:00",
+            "last_traded_at": "2019-08-19T02:11:25+00:00",
+            "last_fetch_at": "2019-08-19T02:24:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=BTC_USDS",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "ONE",
+            "target": "BTC",
+            "market": {
+                "name": "Binance",
+                "identifier": "binance",
+                "has_trading_incentive": false
+            },
+            "last": 1.1e-06,
+            "volume": 190098880.0,
+            "converted_last": {
+                "btc": 1.1e-06,
+                "eth": 5.823e-05,
+                "usd": 0.0114149
+            },
+            "converted_volume": {
+                "btc": 209.109,
+                "eth": 11070,
+                "usd": 2169959
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.909091,
+            "timestamp": "2019-08-19T02:24:26+00:00",
+            "last_traded_at": "2019-08-19T02:24:26+00:00",
+            "last_fetch_at": "2019-08-19T02:24:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://www.binance.com/trade.html?symbol=ONE_BTC",
+            "coin_id": "harmony"
+        },
+        {
+            "base": "ETH",
+            "target": "BTC",
+            "market": {
+                "name": "EXMO",
+                "identifier": "exmo",
+                "has_trading_incentive": false
+            },
+            "last": 0.01888708,
+            "volume": 5286.00807376,
+            "converted_last": {
+                "btc": 0.01888708,
+                "eth": 1.000639,
+                "usd": 195.94
+            },
+            "converted_volume": {
+                "btc": 99.837,
+                "eth": 5289,
+                "usd": 1035740
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.269784,
+            "timestamp": "2019-08-19T02:20:27+00:00",
+            "last_traded_at": "2019-08-19T02:20:27+00:00",
+            "last_fetch_at": "2019-08-19T02:20:27+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://exmo.com/en/trade#?pair=ETH_BTC",
+            "coin_id": "ethereum"
+        },
+        {
+            "base": "BTC",
+            "target": "RUB",
+            "market": {
+                "name": "EXMO",
+                "identifier": "exmo",
+                "has_trading_incentive": false
+            },
+            "last": 691419.1,
+            "volume": 191.88951312,
+            "converted_last": {
+                "btc": 1.003677,
+                "eth": 53.175,
+                "usd": 10412.44
+            },
+            "converted_volume": {
+                "btc": 192.595,
+                "eth": 10204,
+                "usd": 1998037
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.197255,
+            "timestamp": "2019-08-19T02:20:26+00:00",
+            "last_traded_at": "2019-08-19T02:20:26+00:00",
+            "last_fetch_at": "2019-08-19T02:20:26+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://exmo.com/en/trade#?pair=BTC_RUB",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "XBT",
+            "target": "CAD",
+            "market": {
+                "name": "Kraken",
+                "identifier": "kraken",
+                "has_trading_incentive": false
+            },
+            "last": 13783.0,
+            "volume": 30.33405748,
+            "converted_last": {
+                "btc": 1.001268,
+                "eth": 53.085,
+                "usd": 10383.73
+            },
+            "converted_volume": {
+                "btc": 30.372515,
+                "eth": 1610,
+                "usd": 314981
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.187574,
+            "timestamp": "2019-08-19T02:14:01+00:00",
+            "last_traded_at": "2019-08-19T02:14:01+00:00",
+            "last_fetch_at": "2019-08-19T02:21:38+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://trade.kraken.com/markets/kraken/xbt/cad",
+            "coin_id": "bitcoin"
+        },
+        {
+            "base": "BTC",
+            "target": "EUR",
+            "market": {
+                "name": "Coindeal",
+                "identifier": "coindeal",
+                "has_trading_incentive": false
+            },
+            "last": 9308.01,
+            "volume": 258.54888608,
+            "converted_last": {
+                "btc": 0.99705348,
+                "eth": 53.073,
+                "usd": 10324.91
+            },
+            "converted_volume": {
+                "btc": 257.787,
+                "eth": 13722,
+                "usd": 2669494
+            },
+            "trust_score": "green",
+            "bid_ask_spread_percentage": 0.046605,
+            "timestamp": "2019-08-19T01:57:21+00:00",
+            "last_traded_at": "2019-08-19T01:57:21+00:00",
+            "last_fetch_at": "2019-08-19T02:19:37+00:00",
+            "is_anomaly": false,
+            "is_stale": false,
+            "trade_url": "https://frontend.coindeal.com/market/trade.html?pair=BTC/EUR",
+            "coin_id": "bitcoin"
+        }
+    ]
+}
