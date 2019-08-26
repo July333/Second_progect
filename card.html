@@ -1,15 +1,22 @@
 <section class="col-12 col-sm-6 col-md-3 col-lg-2 card border-info mb-3 row">
-    <form row>
-        <div>
-            <div class="form-group">
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="customSwitch1" disabled="">
-                    <label class="custom-control-label" for="customSwitch1"></label>
-                </div>
-            </div>
-            <h1 class="card-title">{{symbol}}</h1>
-            <h3 class="card-subtitle">{{id}}</h3>
-            <button class="btn btn-info disabled">More info</button>
+    <div class="form-group">
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1" disabled="">
+            <label class="custom-control-label" for="customSwitch1"></label>
         </div>
-    </form>
+    </div>
+    <h3 class="card-title">{{symbol}}</h3>
+    <h5 class="card-subtitle">{{id}}</h5>
+    <button class="btn btn-info">More info</button>
+    <div class="infoM" style="display: none;">
+        <div class="load text-center">
+            <div class="loader spinner-border text-primary" role="status" style="display: none;">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <img class="mImg">
+        <p class="p1">{{price.usd}} $</p>
+        <p class="p2">{{price.eur}} €</p>
+        <p class="p3">{{price.ils}} ₪</p>
+    </div>
 </section>

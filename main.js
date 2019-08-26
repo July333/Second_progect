@@ -25,6 +25,7 @@ about.addEventListener('click', function () {
     about.classList.add("active");
     myMain.innerHTML = "";
 });
+//Templates
 function templateCard() {
     $.ajax({
         method: "GET",
@@ -40,25 +41,23 @@ function templateCard() {
 }
 ///Api requests
 function myHomePage() {
+    $("#loader").show();
     templateCard();
     $.ajax({
         method: "GET",
         url: "https://api.coingecko.com/api/v3/coins/list",
         dataType: "json",
         success: function (obj) {
-            for (i = 0; i < 10; i++) {
+            $("#loader").hide();
+            for (let i = 0; i < 200; i++) {
                 //for (i = 0; i < obj.length; i++) {
                 changeCTemplate(template, obj[i]);
-            }
-            console.log(myMain.childNodes);
-            for (i = 0; i < 10; i++) {
-                //for (i = 0; i < obj.length; i++) {
-                myMain.childNodes[i].dataset.id = obj[i].id;
+                $("#myMain section:last-child").attr("data-id", obj[i].id);
             }
             let cardList = document.getElementsByClassName("card");
-            for (var i = 0; i < cardList.length; i++) {
+            for (let i = 0; i < cardList.length; i++) {
                 cardList[i].onclick = function () {
-                    myDetailsTemplate(this.dataset.id);
+                    myDetailsTemplate(obj[i].id);
                 }
             }
         },
@@ -69,29 +68,32 @@ function myHomePage() {
 }
 //writinq html
 function changeCTemplate(template, o) {
-    template = template.replace('{{symbol}}', o.symbol);
-    template = template.replace('{{id}}', o.id);
-    myMain.innerHTML += template;
-    console.log(template, o);
+    let temp = template;
+    temp = temp.replace('{{symbol}}', o.symbol);
+    temp = temp.replace('{{id}}', o.id);
+    myMain.innerHTML += temp;
 }
 //Details template
 function myDetailsTemplate(cId) {
+    let a="section[data-id = '" + cId +"'] ";
+    $(a+".infoM .load .loader").show();
     $.ajax({
         method: "GET",
         url: "https://api.coingecko.com/api/v3/coins/" + cId,
         dataType: "json",
         success: function (obj) {
-            debugger;
-            let t = `<div class="cardD">
-        <img id="mImg" src="${obj.image.small}">
-        <p>${obj.market_data.current_price.usd} $</p>
-        <p>${obj.market_data.current_price.eur} €</p>
-        <p>${obj.market_data.current_price.ils} ₪</p>
-        </div>`;
-            console.log(t);
+            $(a+".infoM .load .loader").hide();
+            //let a="section[data-id = '" + cId +"'] ";
+            $(a+".infoM .mImg").attr("src",obj.image.small);
+            $(a+".infoM .p1").text(obj.market_data.current_price.usd+"$");
+            $(a+".infoM .p2").text(obj.market_data.current_price.eur+'€');
+            $(a+".infoM .p3").text(obj.market_data.current_price.ils+'₪');
+            $(a+".infoM").slideToggle();
         },
         error: function (jqXHR, textStatus) {
             alert("Request faied: " + textStatus);
         }
     });
 }
+
+////

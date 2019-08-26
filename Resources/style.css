@@ -4,14 +4,38 @@
         visibility: hidden;
     }
 }
+#loader {
+    margin: 0 auto;
+    min-width: 60px;
+    min-height: 60px;
+    margin: 70px;
+}
 
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0 auto;
 }
 
+.infoM {
+    padding: 10px;
+    margin-top: 10px;
+}
+
 .card {
-    float: left;
+    vertical-align: top;
+    display: inline-block;
+    min-width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-subtitle {
+    margin: 0 auto;
+}
+
+h5 {
+    max-height: 50px;
+    overflow: hidden;
 }
 
 .form-group {
@@ -19,8 +43,9 @@ body {
 }
 
 .custom-control-label {
-  margin: .5rem 1rem;
+    margin: .5rem 1rem;
 }
+
 .name {
     border-bottom: 2px solid #000;
     overflow: hidden;
@@ -40,3 +65,5 @@ img {
     float: right;
     width: 25%;
 }
+
+content {}

@@ -17,20 +17,26 @@
             <img id="mImg" src="Resources/imageB.jpg">
         </div>
         <nav class="navbar navbar-expand-lg sticky-top row">
-                <div class="col-12 col-sm-6 left nav mr-auto nav-pills nav-justified" id="navbar">
-                    <a class="nav-link" href="#" id="home">Home</a>
-                    <a class="nav-link" href="#" id="liveR">Live Reports</a>
-                    <a class="nav-link" href="#" id="about">About</a>
-                </div>
-                <div class="col-12 col-sm-6 row right">
-                    <input class="form-control col-8" placeholder="Search">
-                    <button class="btn btn-outline-success col-4">Search</button>
-                </div>
+            <div class="col-12 col-sm-6 left nav mr-auto nav-pills nav-justified" id="navbar">
+                <a class="nav-link" href="#" id="home">Home</a>
+                <a class="nav-link" href="#" id="liveR">Live Reports</a>
+                <a class="nav-link" href="#" id="about">About</a>
+            </div>
+            <div class="col-12 col-sm-6 row right">
+                <input class="form-control col-8" placeholder="Search">
+                <button class="btn btn-outline-success col-4">Search</button>
+            </div>
         </nav>
     </header>
+    <div class="load text-center">
+        <div id="loader" class="spinner-border text-primary" role="status" style="display: none;">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
     <main id="myMain" class="container">
     </main>
-    <script src="Resources/jquery-3.4.1.min.js"></script>
+    <script src="Resources/jquery-3.4.1.slim.min.js"></script>
+    <script src="Resources/bootstrap.min.js"></script>
     <script src='main.js'></script>
 </body>
 
