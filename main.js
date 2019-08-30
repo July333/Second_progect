@@ -61,16 +61,29 @@ function myHomePage() {
                 let b = "section[data-id = '" + obj[i].id + "'] ";
                 //more info
                 $(b + ".myB").on('click', function () {
-                    myDetailsTemplate(obj[i].id);
+                    if ($(b + ".infoM").is(':visible')) {
+                        $(b + ".infoM").slideToggle();
+                    }
+                    else {
+                        myDetailsTemplate(obj[i].id);
+                    }
                 });
                 //graph
                 $(b + ".myToggle .slider").on('click', function (e) {
-                    //e.stopPropagation();
-                    //debugger;
-                    if (checkedCoins.length == 5) {
-                        //more than 5
-                    }
+                    console.log(checkedCoins);
                     checkedCoins.push(obj[i]);
+                    if (checkedCoins.length == 6) {
+                        console.log(checkedCoins);
+                        //more than 5
+                        for (let i = 0; i < checkedCoins.length - 1; i++) {
+                            $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
+                        }
+                        fiveCoins();
+                        $("#myModal").modal('toggle');
+                    }
+                    else {
+                    }
+
                 });
             }
         },
@@ -109,6 +122,7 @@ function myDetailsTemplate(cId) {
                 m = JSON.parse(localStorage.getItem(cId));
             }
             else {
+                //cache
                 m = new MyObj(cId, obj.image.small, obj.market_data.current_price.usd,
                     obj.market_data.current_price.eur, obj.market_data.current_price.ils);
                 localStorage.setItem(cId, JSON.stringify(m));
@@ -120,12 +134,30 @@ function myDetailsTemplate(cId) {
             $(a + ".infoM .p2").text(m.eur + '€');
             $(a + ".infoM .p3").text(m.ils + '₪');
             $(a + ".infoM").slideToggle();
-            //cache
         },
         error: function (jqXHR, textStatus) {
             alert("Request faied: " + textStatus);
         }
     });
 }
-
 ////
+function fiveCoins() {
+    console.log("fiveCoins");
+    for (let i = 0; i < checkedCoins.length; i++) {
+        let t = "#myModal .modal-dialog .modal-content .modal-body #c" + i;
+        $(t + " h5").text(checkedCoins[i].id);
+    }
+    let sl="#myModal .modal-dialog .modal-content .modal-body .cn .myToggle .slider";
+    $(sl).on('click', function () {
+        let p = $(this).parent().parent()[0];
+        let tp=p.id[1];
+        ///deleteCoin
+        console.log(checkedCoins);
+        let a = "section[data-id = '" + checkedCoins[tp].id + "']";
+        $(a + " .myToggle input").prop('checked', false);
+        $("#myModal").modal('toggle');
+        let c = checkedCoins.splice(tp, 1);
+        $(sl).off('click');
+    });
+    $("#myModal").modal('toggle');
+}

@@ -64,6 +64,11 @@ img {
     width: 25%;
 }
 
+.cn{
+    min-width: 200px;
+    padding: 10px;
+    margin: 10px; 
+}
 
 
 

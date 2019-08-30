@@ -35,6 +35,63 @@
     </div>
     <main id="myMain" class="container">
     </main>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div>
+                        <h5 class="modal-title" id="myModalLabel">You have already chose 5 coins!</h5>
+                        <h7>To select one more coin you need to uncheck some one:</h7>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="cn" id="c0">
+                        <label class="myToggle switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <h5>{{coin1}}</h5>
+                    </div>
+                    <div class="cn" id="c1">
+                        <label class="myToggle switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <h5>{{coin2}}</h5>
+                    </div>
+                    <div class="cn" id="c2">
+                        <label class="myToggle switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <h5>{{coin3}}</h5>
+                    </div>
+                    <div class="cn" id="c3">
+                        <label class="myToggle switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <h5>{{coin4}}</h5>
+                    </div>
+                    <div class="cn" id="c4">
+                        <label class="myToggle switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <h5>{{coin5}}</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="Resources/jquery-3.4.1.slim.min.js"></script>
     <script src="Resources/bootstrap.min.js"></script>
     <script src='main.js'></script>
