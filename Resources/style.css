@@ -70,8 +70,7 @@ img {
     margin: 10px; 
 }
 
-
-
+  /* Toggle */
 .myToggle {
     float: right;
 }
@@ -134,3 +133,34 @@ img {
   .slider.round:before {
     border-radius: 50%;
   }
+
+ /* parallax */
+.parallax-zoom-blur {
+  overflow: hidden;
+  min-height: 0px;
+}
+
+@media (max-width: 600px) {
+    .parallax-zoom-blur { padding-bottom: -50%; }
+}
+@media  (min-width: 600px) and (max-width: 760px) {
+    .parallax-zoom-blur { padding-bottom: -45%; }
+}
+@media (min-width: 760px) {
+    .parallax-zoom-blur { padding-bottom: 50%; }
+}
+.parallax-zoom-blur img {
+  width: 100%;
+  max-width: none;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding-top: 28%;
+  padding-bottom: 15%;
+  min-width: 15px;
+}
+
+

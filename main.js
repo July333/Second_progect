@@ -25,6 +25,18 @@ about.addEventListener('click', function () {
     about.classList.add("active");
     myMain.innerHTML = "";
 });
+//Start
+
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    $(".parallax-zoom-blur img").css({
+      width: (100 + scroll/5)  + "%",
+      top: -(scroll/10)  + "%",
+      "-webkit-filter": "blur(" + (scroll/100) + "px)",
+      filter: "blur(" + (scroll/100) + "px)"
+    });
+  });
+
 //Templates
 function templateCard() {
     $.ajax({
@@ -147,10 +159,10 @@ function fiveCoins() {
         let t = "#myModal .modal-dialog .modal-content .modal-body #c" + i;
         $(t + " h5").text(checkedCoins[i].id);
     }
-    let sl="#myModal .modal-dialog .modal-content .modal-body .cn .myToggle .slider";
+    let sl = "#myModal .modal-dialog .modal-content .modal-body .cn .myToggle .slider";
     $(sl).on('click', function () {
         let p = $(this).parent().parent()[0];
-        let tp=p.id[1];
+        let tp = p.id[1];
         ///deleteCoin
         console.log(checkedCoins);
         let a = "section[data-id = '" + checkedCoins[tp].id + "']";
