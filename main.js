@@ -1,8 +1,10 @@
 //variebles
+const MIN = 120;
 var home = document.getElementById('home');
 var liveR = document.getElementById('liveR');
 var about = document.getElementById('about');
 var myMain = document.getElementById('myMain');
+var search = document.getElementById('search');
 var template;
 var checkedCoins = [];
 //listeners
@@ -11,6 +13,9 @@ home.addEventListener('click', function () {
     liveR.classList.remove("active");
     about.classList.remove("active");
     myMain.innerHTML = "";
+    $(".parallax-zoom-blur").css("visibility", "visible");
+    $("#chartContainer").css("visibility", "hidden");
+    $("#chartContainer").css("height", "0px");
     myHomePage();
 });
 liveR.addEventListener('click', function () {
@@ -18,6 +23,14 @@ liveR.addEventListener('click', function () {
     liveR.classList.add("active");
     about.classList.remove("active");
     myMain.innerHTML = "";
+    $(".parallax-zoom-blur").css("visibility", "hidden");
+    $("#chartContainer").css("visibility", "visible");
+    if (checkedCoins.length > 0) {
+        //lifeReports();
+    }
+    else {
+        alert("You didn't choose any coin");
+    }
 });
 about.addEventListener('click', function () {
     home.classList.remove("active");
@@ -25,17 +38,28 @@ about.addEventListener('click', function () {
     about.classList.add("active");
     myMain.innerHTML = "";
 });
-//Start
 
-$(window).scroll(function() {
+search.addEventListener('click', function () {
+    home.classList.remove("active");
+    liveR.classList.remove("active");
+    about.classList.remove("active");
+    $(".parallax-zoom-blur").css("visibility", "visible");
+    $("#chartContainer").css("visibility", "hidden");
+    $("#chartContainer").css("height", "0px");
+    myMain.innerHTML = "";
+    let text = $("#inp").val();
+    mySearch(text);
+});
+//Start
+$(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    $(".parallax-zoom-blur img").css({
-      width: (100 + scroll/5)  + "%",
-      top: -(scroll/10)  + "%",
-      "-webkit-filter": "blur(" + (scroll/100) + "px)",
-      filter: "blur(" + (scroll/100) + "px)"
+    $(".parallax-zoom-blur #paral").css({
+        width: (100 + scroll / 5) + "%",
+        top: -(scroll / 10) + "%",
+        "-webkit-filter": "blur(" + (scroll / 100) + "px)",
+        filter: "blur(" + (scroll / 100) + "px)"
     });
-  });
+});
 
 //Templates
 function templateCard() {
@@ -82,10 +106,9 @@ function myHomePage() {
                 });
                 //graph
                 $(b + ".myToggle .slider").on('click', function (e) {
-                    console.log(checkedCoins);
                     checkedCoins.push(obj[i]);
+                    console.log(checkedCoins);
                     if (checkedCoins.length == 6) {
-                        console.log(checkedCoins);
                         //more than 5
                         for (let i = 0; i < checkedCoins.length - 1; i++) {
                             $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
@@ -129,6 +152,7 @@ function myDetailsTemplate(cId) {
         url: "https://api.coingecko.com/api/v3/coins/" + cId,
         dataType: "json",
         success: function (obj) {
+            changeCTemplate(template, obj);
             let m;
             if (localStorage.getItem(cId)) {
                 m = JSON.parse(localStorage.getItem(cId));
@@ -138,7 +162,7 @@ function myDetailsTemplate(cId) {
                 m = new MyObj(cId, obj.image.small, obj.market_data.current_price.usd,
                     obj.market_data.current_price.eur, obj.market_data.current_price.ils);
                 localStorage.setItem(cId, JSON.stringify(m));
-                setTimeout(function () { localStorage.removeItem(cId) }, 120 * 1000);
+                setTimeout(function () { localStorage.removeItem(cId) }, MIN * 1000);
             }
             $(a + ".infoM .load .loader").hide();
             $(a + ".infoM .mImg").attr("src", m.img);
@@ -154,7 +178,6 @@ function myDetailsTemplate(cId) {
 }
 ////
 function fiveCoins() {
-    console.log("fiveCoins");
     for (let i = 0; i < checkedCoins.length; i++) {
         let t = "#myModal .modal-dialog .modal-content .modal-body #c" + i;
         $(t + " h5").text(checkedCoins[i].id);
@@ -164,7 +187,6 @@ function fiveCoins() {
         let p = $(this).parent().parent()[0];
         let tp = p.id[1];
         ///deleteCoin
-        console.log(checkedCoins);
         let a = "section[data-id = '" + checkedCoins[tp].id + "']";
         $(a + " .myToggle input").prop('checked', false);
         $("#myModal").modal('toggle');
@@ -173,3 +195,49 @@ function fiveCoins() {
     });
     $("#myModal").modal('toggle');
 }
+
+//search
+function mySearch(cId) {
+    $("#loader").show();
+    templateCard();
+    $.ajax({
+        method: "GET",
+        url: "https://api.coingecko.com/api/v3/coins/" + cId,
+        dataType: "json",
+        success: function (obj) {
+            $("#loader").hide();
+            let m;
+            if (localStorage.getItem(cId)) {
+                m = JSON.parse(localStorage.getItem(cId));
+            }
+            else {
+                //cache
+                m = new MyObj(cId, obj.image.small, obj.market_data.current_price.usd,
+                    obj.market_data.current_price.eur, obj.market_data.current_price.ils);
+                localStorage.setItem(text, JSON.stringify(m));
+                setTimeout(function () { localStorage.removeItem(cId) }, MIN * 1000);
+            }
+            changeCTemplate(template, obj);
+            $("#myMain section:last-child").attr("data-id", obj.id);
+                let b = "section[data-id = '" + obj.id + "'] ";
+                //more info
+                $(b + ".myB").on('click', function () {
+                    if ($(b + ".infoM").is(':visible')) {
+                        $(b + ".infoM").slideToggle();
+                    }
+                    else {
+                        $(b + ".infoM .load .loader").hide();
+                        $(b + ".infoM .mImg").attr("src", m.img);
+                        $(b + ".infoM .p1").text(m.usd + "$");
+                        $(b + ".infoM .p2").text(m.eur + '€');
+                        $(b + ".infoM .p3").text(m.ils + '₪');
+                        $(b + ".infoM").slideToggle();
+                    }
+                });
+            $("#inp").val("");
+        },
+        error: function (jqXHR, textStatus) {
+            alert("Request faied: " + "there is no such Id " + textStatus);
+        }
+    });
+};

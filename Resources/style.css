@@ -4,7 +4,16 @@
         visibility: hidden;
     }
 }
-
+a{
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color:rgb(23, 17, 39);
+  
+}
+#navbar{
+  padding: 0%;
+}
 #loader {
     margin: 0 auto;
     min-width: 60px;
@@ -149,7 +158,7 @@ img {
 @media (min-width: 760px) {
     .parallax-zoom-blur { padding-bottom: 50%; }
 }
-.parallax-zoom-blur img {
+.parallax-zoom-blur #paral {
   width: 100%;
   max-width: none;
   position: fixed;
@@ -158,9 +167,13 @@ img {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  padding-top: 28%;
+  padding-top: 23%;
   padding-bottom: 15%;
   min-width: 15px;
 }
 
-
+/* graph */
+#chartContainer{
+    height: 300px; 
+    width: 100%;
+}
