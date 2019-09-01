@@ -118,7 +118,6 @@ function myHomePage() {
                     }
                     else {
                     }
-
                 });
             }
         },
@@ -214,7 +213,7 @@ function mySearch(cId) {
                 //cache
                 m = new MyObj(cId, obj.image.small, obj.market_data.current_price.usd,
                     obj.market_data.current_price.eur, obj.market_data.current_price.ils);
-                localStorage.setItem(text, JSON.stringify(m));
+                localStorage.setItem(cId, JSON.stringify(m));
                 setTimeout(function () { localStorage.removeItem(cId) }, MIN * 1000);
             }
             changeCTemplate(template, obj);
@@ -233,6 +232,19 @@ function mySearch(cId) {
                         $(b + ".infoM .p3").text(m.ils + '₪');
                         $(b + ".infoM").slideToggle();
                     }
+                });
+                $(b + ".myToggle .slider").on('click', function (e) {
+                    checkedCoins.push(obj);
+                    console.log(checkedCoins);
+                    if (checkedCoins.length == 6) {
+                        //more than 5
+                        for (let i = 0; i < checkedCoins.length - 1; i++) {
+                            $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
+                        }
+                        fiveCoins();
+                        $("#myModal").modal('toggle');
+                    }
+                    else {}
                 });
             $("#inp").val("");
         },

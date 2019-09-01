@@ -1,19 +1,17 @@
 
 function lifeReports() {
-    var dps = []; // dataPoints
+    //var dps = []; // dataPoints
     let str = "";
     for (let i = 0; i < checkedCoins.length; i++) {
         str += checkedCoins[i].id + " ";
     }
-
-    let chartContainer = document.getElementById('chartContainer');
+    //let chartContainer = document.getElementById('chartContainer');
     var options =  {
         exportEnabled: true,
         animationEnabled: true,
         title: {
             text: str + " to USD",
         },
-
         axisX: {
             title: "Time"
         },
@@ -39,62 +37,40 @@ function lifeReports() {
             cursor: "pointer",
             itemclick: toggleDataSeries,
         },
-        data: dps,
+        data: [],
     };
-    $(chartContainer).CanvasJSChart(options);
-    let chart = $(chartContainer).CanvasJSChart();
-    setInterval(() => {
+    $("#chartContainer").CanvasJSChart(options);
+    let chart = $("#chartContainer").CanvasJSChart();
+    for (let i = 0; i < checkedCoins.length; i++) {
+        let coinObj = {
+            type: "spline",
+            name: " ",
+            showInLegend: true,
+            xValueFormatString: "DDD HH:mm:ss",
+            yValueFormatString: "$#,##0.#",
+            dataPoints: []
+        }
+        chart.options.data.push(coinObj);
+    }
+    function toggleDataSeries(e) {
+        if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+            e.dataSeries.visible = false;
+        } else {
+            e.dataSeries.visible = true;
+        }
+        e.chart.render();
+    }
+    var chartInterval = setInterval(() => {
         for (let i = 0; i < checkedCoins.length; i++) {
-            $.getJSON("https://api.coingecko.com/api/v3/coins/" + checkedCoins[i].id, (data) => {
-
+            $.getJSON("https://api.coingecko.com/api/v3/coins/" + checkedCoins[i].id, (d) => {
                 let obj = {
-                    x:new Date().toLocaleTimeString(),
-                    y:data.market_data.current_price.usd
+                    x: new Date().toLocaleTimeString(),
+                    y: d.market_data.current_price.usd
                 }
                 console.log(obj);
-                dps.push(obj);
-                console.log(dps)
+                chart.options.data[i].dataPoints.push(obj);
+                chart.render();
             })
-
         }
-       
-        chart.render();
     }, 2000);
-
-
-
-    // var xVal = 0;
-    // var yVal = 100; 
-    // var updateInterval = 1000;
-    // var dataLength = 20; // number of dataPoints visible at any point
-
-    // var updateChart = function (count) {
-
-    //     count = count || 1;
-
-    //     for (var j = 0; j < count; j++) {
-    //         yVal = yVal +  Math.round(5 + Math.random() *(-5-5));
-    //         dps.push({
-    //             x: xVal,
-    //             y: yVal
-    //         });
-    //         xVal++;
-    //     }
-
-    //     if (dps.length > dataLength) {
-    //         dps.shift();
-    //     }
-
-    //     chart.render();
-    // };
-
-
-}
-function toggleDataSeries(e) {
-	if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-		e.dataSeries.visible = false;
-	} else {
-		e.dataSeries.visible = true;
-	}
-	e.chart.render();
 }
