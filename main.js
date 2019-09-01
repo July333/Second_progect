@@ -26,7 +26,7 @@ liveR.addEventListener('click', function () {
     $(".parallax-zoom-blur").css("visibility", "hidden");
     $("#chartContainer").css("visibility", "visible");
     if (checkedCoins.length > 0) {
-        //lifeReports();
+        lifeReports();
     }
     else {
         alert("You didn't choose any coin");
