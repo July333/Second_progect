@@ -208,6 +208,7 @@ function fiveCoins() {
         let t = "#myModal .modal-dialog .modal-content .modal-body #c" + i;
         $(t + " h5").text(checkedCoins[i].id);
     }
+        let cl="#myModal .modal-dialog .modal-content";
     let sl = "#myModal .modal-dialog .modal-content .modal-body .cn .myToggle .slider";
     $(sl).on('click', function () {
         let p = $(this).parent().parent()[0];
@@ -217,7 +218,15 @@ function fiveCoins() {
         $(a + " .myToggle input").prop('checked', false);
         $("#myModal").modal('toggle');
         checkedCoins.splice(tp, 1);
+        console.log(checkedCoins);
         $(sl).off('click');
+    });
+
+    $(cl+" .myClose").on('click', function () {
+        ///deleteCoin
+        checkedCoins.pop();
+        console.log(checkedCoins);
+        //$(cl).off('click');
     });
     $("#myModal").modal('toggle');
 }
