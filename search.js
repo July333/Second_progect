@@ -1,7 +1,7 @@
 //search
 function mySearch(cId) {
     $("#loader").show();
-    templateCard();
+    //templateCard();
     $.ajax({
         method: "GET",
         url: "https://api.coingecko.com/api/v3/coins/" + cId,
@@ -19,9 +19,12 @@ function mySearch(cId) {
                 localStorage.setItem(cId, JSON.stringify(m));
                 setTimeout(function () { localStorage.removeItem(cId) }, MIN * 1000);
             }
-            changeCTemplate(template, obj);
-            $("#myMain section:last-child").attr("data-id", obj.id);
-            $("#myMain section:last-child").attr("id", "searchC");
+            //changeCTemplate(template, obj);
+            $("#myMain").prepend(template);
+            $("#myMain section:first-child").attr("data-id", obj.id);
+            $("#myMain section:first-child").attr("id", "searchC");
+            $("#myMain section:first-child .card-title").text(obj.symbol);
+            $("#myMain section:first-child .card-subtitle").text(obj.id);
             let b = "section[data-id = '" + obj.id + "'] ";
             //more info
             $(b + ".myB").on('click', function () {
@@ -54,7 +57,8 @@ function mySearch(cId) {
             $("#inp").val("");
         },
         error: function (jqXHR, textStatus) {
-            alert("Request faied: " + "there is no such Id " + textStatus);
+            $("#loader").hide();
+            alert("Request faied: " + "there is no such Id ");
         }
     });
 };

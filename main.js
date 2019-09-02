@@ -17,7 +17,7 @@ home.addEventListener('click', function () {
     $("#myMain section").css("visibility", "visible");
     $("#chartContainer").css("visibility", "hidden");
     $("#chartContainer").css("height", "0px");
-    //$("#myNode").css("visibility", "hidden");
+    $("#myAbout").css("visibility", "hidden");
     if($("#searchC")){
         $( "#searchC" ).remove();
     }
@@ -32,7 +32,7 @@ liveR.addEventListener('click', function () {
     $(".parallax-zoom-blur").css("visibility", "hidden");
     $("#myMain section").css("visibility", "hidden");
     $("#chartContainer").css("visibility", "visible");
-    //$("#myNode").css("visibility", "hidden");
+    $("#myAbout").css("visibility", "hidden");
     if(chartInterval!=(-1)){
         stopFn();
     }
@@ -47,12 +47,11 @@ about.addEventListener('click', function () {
     home.classList.remove("active");
     liveR.classList.remove("active");
     about.classList.add("active");
-    $(".parallax-zoom-blur").css("visibility", "hidden");
+    $(".parallax-zoom-blur").css("visibility", "visible");
     $("#myMain section").css("visibility", "hidden");
     $("#chartContainer").css("visibility", "hidden");
     $("#chartContainer").css("height", "0px");
-    $("#myNode").css("visibility", "visible");
-    abMe();
+    $("#myAbout").css("visibility", "visible");
 });
 search.addEventListener('click', function () {
     home.classList.remove("active");
@@ -62,7 +61,7 @@ search.addEventListener('click', function () {
     $("#chartContainer").css("visibility", "hidden");
     $("#chartContainer").css("height", "0px");
     $("#myMain section").css("visibility", "hidden");
-    //$("#myNode").css("visibility", "hidden");
+    $("#myAbout").css("visibility", "hidden");
     let text = $("#inp").val();
     mySearch(text);
 });
@@ -76,6 +75,11 @@ $(window).scroll(function () {
         filter: "blur(" + (scroll / 100) + "px)"
     });
 });
+
+$(document).ready(function() {
+    templateCard();
+});
+
 //Templates
 function templateCard() {
     $.ajax({
@@ -90,10 +94,25 @@ function templateCard() {
         }
     });
 }
+//writinq html
+function changeCTemplate(template, o) {
+    let temp = template;
+    temp = temp.replace('{{symbol}}', o.symbol);
+    temp = temp.replace('{{id}}', o.id);
+    myMain.innerHTML += temp;
+}
+/////////////////constructor
+function MyObj(cId, img, usd, eur, ils) {
+    this.cId = cId;
+    this.img = img;
+    this.usd = usd;
+    this.eur = eur;
+    this.ils = ils;
+}
 ///Api requests
 function myHomePage() {
     $("#loader").show();
-    templateCard();
+    //templateCard();
     $.ajax({
         method: "GET",
         url: "https://api.coingecko.com/api/v3/coins/list",
@@ -119,6 +138,7 @@ function myHomePage() {
                         myDetailsTemplate(obj[i].id);
                     }
                 });
+                
                 //graph
                 $(b + ".myToggle .slider").on('click', function (e) {
                     stopFn();
@@ -142,21 +162,6 @@ function myHomePage() {
         }
     });
 }
-//writinq html
-function changeCTemplate(template, o) {
-    let temp = template;
-    temp = temp.replace('{{symbol}}', o.symbol);
-    temp = temp.replace('{{id}}', o.id);
-    myMain.innerHTML += temp;
-}
-/////////////////constructor
-function MyObj(cId, img, usd, eur, ils) {
-    this.cId = cId;
-    this.img = img;
-    this.usd = usd;
-    this.eur = eur;
-    this.ils = ils;
-}
 //Details template
 function myDetailsTemplate(cId) {
     let a = "section[data-id = '" + cId + "'] ";
@@ -166,7 +171,6 @@ function myDetailsTemplate(cId) {
         url: "https://api.coingecko.com/api/v3/coins/" + cId,
         dataType: "json",
         success: function (obj) {
-            changeCTemplate(template, obj);
             let m;
             if (localStorage.getItem(cId)) {
                 m = JSON.parse(localStorage.getItem(cId));
@@ -211,7 +215,4 @@ function fiveCoins() {
 }
 //About
 function abMe(){
-    let str="<h1>Crypto progect</h1>";
-    //<p>This is just my second progect
-    //so don't be critical</p>";
 }
