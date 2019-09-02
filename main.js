@@ -7,24 +7,35 @@ var myMain = document.getElementById('myMain');
 var search = document.getElementById('search');
 var template;
 var checkedCoins = [];
+
 //listeners
 home.addEventListener('click', function () {
     home.classList.add("active");
     liveR.classList.remove("active");
     about.classList.remove("active");
-    myMain.innerHTML = "";
     $(".parallax-zoom-blur").css("visibility", "visible");
+    $("#myMain section").css("visibility", "visible");
     $("#chartContainer").css("visibility", "hidden");
     $("#chartContainer").css("height", "0px");
-    myHomePage();
+    //$("#myNode").css("visibility", "hidden");
+    if($("#searchC")){
+        $( "#searchC" ).remove();
+    }
+    if (myMain.children.length <= 1) {
+        myHomePage();
+    }
 });
 liveR.addEventListener('click', function () {
     home.classList.remove("active");
     liveR.classList.add("active");
     about.classList.remove("active");
-    myMain.innerHTML = "";
     $(".parallax-zoom-blur").css("visibility", "hidden");
+    $("#myMain section").css("visibility", "hidden");
     $("#chartContainer").css("visibility", "visible");
+    //$("#myNode").css("visibility", "hidden");
+    if(chartInterval!=(-1)){
+        stopFn();
+    }
     if (checkedCoins.length > 0) {
         lifeReports();
     }
@@ -36,9 +47,13 @@ about.addEventListener('click', function () {
     home.classList.remove("active");
     liveR.classList.remove("active");
     about.classList.add("active");
-    myMain.innerHTML = "";
+    $(".parallax-zoom-blur").css("visibility", "hidden");
+    $("#myMain section").css("visibility", "hidden");
+    $("#chartContainer").css("visibility", "hidden");
+    $("#chartContainer").css("height", "0px");
+    $("#myNode").css("visibility", "visible");
+    abMe();
 });
-
 search.addEventListener('click', function () {
     home.classList.remove("active");
     liveR.classList.remove("active");
@@ -46,7 +61,8 @@ search.addEventListener('click', function () {
     $(".parallax-zoom-blur").css("visibility", "visible");
     $("#chartContainer").css("visibility", "hidden");
     $("#chartContainer").css("height", "0px");
-    myMain.innerHTML = "";
+    $("#myMain section").css("visibility", "hidden");
+    //$("#myNode").css("visibility", "hidden");
     let text = $("#inp").val();
     mySearch(text);
 });
@@ -60,7 +76,6 @@ $(window).scroll(function () {
         filter: "blur(" + (scroll / 100) + "px)"
     });
 });
-
 //Templates
 function templateCard() {
     $.ajax({
@@ -106,6 +121,7 @@ function myHomePage() {
                 });
                 //graph
                 $(b + ".myToggle .slider").on('click', function (e) {
+                    stopFn();
                     checkedCoins.push(obj[i]);
                     console.log(checkedCoins);
                     if (checkedCoins.length == 6) {
@@ -133,7 +149,6 @@ function changeCTemplate(template, o) {
     temp = temp.replace('{{id}}', o.id);
     myMain.innerHTML += temp;
 }
-
 /////////////////constructor
 function MyObj(cId, img, usd, eur, ils) {
     this.cId = cId;
@@ -189,67 +204,14 @@ function fiveCoins() {
         let a = "section[data-id = '" + checkedCoins[tp].id + "']";
         $(a + " .myToggle input").prop('checked', false);
         $("#myModal").modal('toggle');
-        let c = checkedCoins.splice(tp, 1);
+        checkedCoins.splice(tp, 1);
         $(sl).off('click');
     });
     $("#myModal").modal('toggle');
 }
-
-//search
-function mySearch(cId) {
-    $("#loader").show();
-    templateCard();
-    $.ajax({
-        method: "GET",
-        url: "https://api.coingecko.com/api/v3/coins/" + cId,
-        dataType: "json",
-        success: function (obj) {
-            $("#loader").hide();
-            let m;
-            if (localStorage.getItem(cId)) {
-                m = JSON.parse(localStorage.getItem(cId));
-            }
-            else {
-                //cache
-                m = new MyObj(cId, obj.image.small, obj.market_data.current_price.usd,
-                    obj.market_data.current_price.eur, obj.market_data.current_price.ils);
-                localStorage.setItem(cId, JSON.stringify(m));
-                setTimeout(function () { localStorage.removeItem(cId) }, MIN * 1000);
-            }
-            changeCTemplate(template, obj);
-            $("#myMain section:last-child").attr("data-id", obj.id);
-                let b = "section[data-id = '" + obj.id + "'] ";
-                //more info
-                $(b + ".myB").on('click', function () {
-                    if ($(b + ".infoM").is(':visible')) {
-                        $(b + ".infoM").slideToggle();
-                    }
-                    else {
-                        $(b + ".infoM .load .loader").hide();
-                        $(b + ".infoM .mImg").attr("src", m.img);
-                        $(b + ".infoM .p1").text(m.usd + "$");
-                        $(b + ".infoM .p2").text(m.eur + '€');
-                        $(b + ".infoM .p3").text(m.ils + '₪');
-                        $(b + ".infoM").slideToggle();
-                    }
-                });
-                $(b + ".myToggle .slider").on('click', function (e) {
-                    checkedCoins.push(obj);
-                    console.log(checkedCoins);
-                    if (checkedCoins.length == 6) {
-                        //more than 5
-                        for (let i = 0; i < checkedCoins.length - 1; i++) {
-                            $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
-                        }
-                        fiveCoins();
-                        $("#myModal").modal('toggle');
-                    }
-                    else {}
-                });
-            $("#inp").val("");
-        },
-        error: function (jqXHR, textStatus) {
-            alert("Request faied: " + "there is no such Id " + textStatus);
-        }
-    });
-};
+//About
+function abMe(){
+    let str="<h1>Crypto progect</h1>";
+    //<p>This is just my second progect
+    //so don't be critical</p>";
+}

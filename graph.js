@@ -1,6 +1,7 @@
-
+//Draw graph
+var chartInterval=-1;
 function lifeReports() {
-    //var dps = []; // dataPoints
+    var count = 10;
     let str = "";
     for (let i = 0; i < checkedCoins.length; i++) {
         str += checkedCoins[i].id + " ";
@@ -21,13 +22,6 @@ function lifeReports() {
             lineColor: "#4F81BC",
             labelFontColor: "#4F81BC",
             tickColor: "#4F81BC",
-            includeZero: false
-        },
-        axisY2: {
-            titleFontColor: "#C0504E",
-            lineColor: "#C0504E",
-            labelFontColor: "#C0504E",
-            tickColor: "#C0504E",
             includeZero: false
         },
         toolTip: {
@@ -60,17 +54,25 @@ function lifeReports() {
         }
         e.chart.render();
     }
-    var chartInterval = setInterval(() => {
+    chartInterval = setInterval(() => {
         for (let i = 0; i < checkedCoins.length; i++) {
             $.getJSON("https://api.coingecko.com/api/v3/coins/" + checkedCoins[i].id, (d) => {
                 let obj = {
-                    x: new Date().toLocaleTimeString(),
+                    x: new Date(),
                     y: d.market_data.current_price.usd
                 }
                 console.log(obj);
+                chart.options.data[i].name=d.name;
                 chart.options.data[i].dataPoints.push(obj);
                 chart.render();
             })
+            if (chart.options.data[i].dataPoints.length > count) {
+                chart.options.data[i].dataPoints.shift();
+            }
         }
+
     }, 2000);
 }
+function stopFn() {
+    clearInterval(chartInterval);
+  }
