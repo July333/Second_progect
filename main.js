@@ -208,7 +208,7 @@ function fiveCoins() {
         let t = "#myModal .modal-dialog .modal-content .modal-body #c" + i;
         $(t + " h5").text(checkedCoins[i].id);
     }
-        let cl="#myModal .modal-dialog .modal-content";
+    let cl = "#myModal .modal-dialog .modal-content";
     let sl = "#myModal .modal-dialog .modal-content .modal-body .cn .myToggle .slider";
     $(sl).on('click', function () {
         let p = $(this).parent().parent()[0];
@@ -220,13 +220,17 @@ function fiveCoins() {
         checkedCoins.splice(tp, 1);
         console.log(checkedCoins);
         $(sl).off('click');
+        $("#myModal").modal('toggle');
     });
 
-    $(cl+" .myClose").on('click', function () {
+    $(cl + " .myClose").on('click', function (e) {
         ///deleteCoin
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        let tp = "section[data-id = '" + checkedCoins[checkedCoins.length - 1].id + "']";
+        $(tp + " .myToggle input").prop('checked', false);
         checkedCoins.pop();
         console.log(checkedCoins);
-        //$(cl).off('click');
+        $("#myModal").modal('toggle');
     });
-    $("#myModal").modal('toggle');
 }
