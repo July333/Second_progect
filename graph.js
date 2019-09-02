@@ -1,5 +1,5 @@
 //Draw graph
-var chartInterval=-1;
+var chartInterval = -1;
 function lifeReports() {
     var count = 10;
     let str = "";
@@ -7,7 +7,7 @@ function lifeReports() {
         str += checkedCoins[i].id + " ";
     }
     //let chartContainer = document.getElementById('chartContainer');
-    var options =  {
+    var options = {
         exportEnabled: true,
         animationEnabled: true,
         title: {
@@ -62,7 +62,7 @@ function lifeReports() {
                     y: d.market_data.current_price.usd
                 }
                 console.log(obj);
-                chart.options.data[i].name=d.name;
+                chart.options.data[i].name = d.name;
                 chart.options.data[i].dataPoints.push(obj);
                 chart.render();
             })
@@ -75,4 +75,4 @@ function lifeReports() {
 }
 function stopFn() {
     clearInterval(chartInterval);
-  }
+}

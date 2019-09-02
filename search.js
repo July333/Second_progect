@@ -40,19 +40,33 @@ function mySearch(cId) {
                     $(b + ".infoM").slideToggle();
                 }
             });
+            for (let i = 0; i < checkedCoins.length; i++) {
+                if (checkedCoins[i].id == obj.id) {
+                    $(b + ".myToggle input").prop('checked', true);
+                }
+            }
             $(b + ".myToggle .slider").on('click', function (e) {
                 stopFn();
-                checkedCoins.push(obj);
-                console.log(checkedCoins);
-                if (checkedCoins.length == 6) {
-                    //more than 5
-                    for (let i = 0; i < checkedCoins.length - 1; i++) {
-                        $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
-                    }
-                    fiveCoins();
-                    $("#myModal").modal('toggle');
+                if ($(b + ".myToggle input").is(':checked')) {//is already checked
+                    //del
+                    let p = $(this).parent().parent()[0];
+                    let valueId = $(p).attr("data-id");
+                    checkedCoins = checkedCoins.filter(function (value, index, arr) {
+                        return value.id != valueId;
+                    });
                 }
-                else { }
+                else {
+                    checkedCoins.push(obj);
+                    if (checkedCoins.length == 6) {
+                        //more than 5
+                        for (let i = 0; i < checkedCoins.length - 1; i++) {
+                            $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
+                        }
+                        fiveCoins();
+                        $("#myModal").modal('toggle');
+                    }
+                    else { }
+                }
             });
             $("#inp").val("");
         },

@@ -4,26 +4,30 @@
     visibility: hidden;
   }
 }
+
 /*     img */
 
 .mImg {
   float: right;
   width: 25%;
 }
-#sideIm
-{
+
+#sideIm {
   float: right;
   width: 25%;
 }
+
 #me {
   float: left;
   width: 50%;
 }
+
 /*     body */
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0 auto;
 }
+
 /*              header */
 a {
   font-size: 1.2em;
@@ -43,6 +47,7 @@ a {
   padding: 5px;
   padding-left: 15px;
 }
+
 /*              parallax BIG div */
 /* loader */
 #loader {
@@ -51,10 +56,12 @@ a {
   min-height: 60px;
   margin: 70px;
 }
+
 /* myMain */
 #myMain {
   position: relative;
 }
+
 .infoM {
   padding: 10px;
   margin-top: 10px;
@@ -71,6 +78,7 @@ a {
 .card-subtitle {
   margin: 0 auto;
 }
+
 section h5 {
   max-height: 50px;
   overflow: hidden;
@@ -81,6 +89,7 @@ section h5 {
   top: 0;
   position: absolute;
 }
+
 /* myAbout */
 #myAbout {
   top: 0;

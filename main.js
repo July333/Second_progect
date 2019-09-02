@@ -18,8 +18,8 @@ home.addEventListener('click', function () {
     $("#chartContainer").css("visibility", "hidden");
     $("#chartContainer").css("height", "0px");
     $("#myAbout").css("visibility", "hidden");
-    if($("#searchC")){
-        $( "#searchC" ).remove();
+    if ($("#searchC")) {
+        $("#searchC").remove();
     }
     if (myMain.children.length <= 1) {
         myHomePage();
@@ -33,7 +33,7 @@ liveR.addEventListener('click', function () {
     $("#myMain section").css("visibility", "hidden");
     $("#chartContainer").css("visibility", "visible");
     $("#myAbout").css("visibility", "hidden");
-    if(chartInterval!=(-1)){
+    if (chartInterval != (-1)) {
         stopFn();
     }
     if (checkedCoins.length > 0) {
@@ -76,7 +76,7 @@ $(window).scroll(function () {
     });
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
     templateCard();
 });
 
@@ -138,21 +138,31 @@ function myHomePage() {
                         myDetailsTemplate(obj[i].id);
                     }
                 });
-                
                 //graph
                 $(b + ".myToggle .slider").on('click', function (e) {
                     stopFn();
-                    checkedCoins.push(obj[i]);
-                    console.log(checkedCoins);
-                    if (checkedCoins.length == 6) {
-                        //more than 5
-                        for (let i = 0; i < checkedCoins.length - 1; i++) {
-                            $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
-                        }
-                        fiveCoins();
-                        $("#myModal").modal('toggle');
+                    if ($(b + ".myToggle input").is(':checked')) {//is already checked
+                        console.log("hi");
+                        console.log(checkedCoins);
+                        let p = $(this).parent().parent()[0];
+                        let valueId = $(p).attr("data-id");
+                        checkedCoins = checkedCoins.filter(function (value, index, arr) {
+                            return value.id != valueId;
+                        });
+                        console.log(checkedCoins);
                     }
                     else {
+                        checkedCoins.push(obj[i]);
+                        console.log(checkedCoins);
+                        if (checkedCoins.length == 6) {
+                            //more than 5
+                            for (let i = 0; i < checkedCoins.length - 1; i++) {
+                                $("#myModal .modal-dialog .modal-content .modal-body #c" + i + " .myToggle input").prop('checked', true);
+                            }
+                            fiveCoins();
+                            $("#myModal").modal('toggle');
+                        }
+                        else { }
                     }
                 });
             }
@@ -214,5 +224,5 @@ function fiveCoins() {
     $("#myModal").modal('toggle');
 }
 //About
-function abMe(){
+function abMe() {
 }
