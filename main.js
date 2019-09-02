@@ -1,5 +1,6 @@
 //variebles
 const MIN = 120;
+const MAX_LEN = 100; //or coin's lenght (obj.length)
 var home = document.getElementById('home');
 var liveR = document.getElementById('liveR');
 var about = document.getElementById('about');
@@ -112,7 +113,6 @@ function MyObj(cId, img, usd, eur, ils) {
 ///Api requests
 function myHomePage() {
     $("#loader").show();
-    //templateCard();
     $.ajax({
         method: "GET",
         url: "https://api.coingecko.com/api/v3/coins/list",
@@ -120,14 +120,12 @@ function myHomePage() {
         success: function (obj) {
             $("#loader").hide();
             //download coins
-            for (let i = 0; i < 10; i++) {
-                //for (i = 0; i < obj.length; i++) {
+            for (let i = 0; i < MAX_LEN; i++) {
                 changeCTemplate(template, obj[i]);
                 $("#myMain section:last-child").attr("data-id", obj[i].id);
             }
             //events
-            for (let i = 0; i < 10; i++) {
-                //for (i = 0; i < obj.length; i++) {
+            for (let i = 0; i < MAX_LEN; i++) {
                 let b = "section[data-id = '" + obj[i].id + "'] ";
                 //more info
                 $(b + ".myB").on('click', function () {
@@ -222,7 +220,4 @@ function fiveCoins() {
         $(sl).off('click');
     });
     $("#myModal").modal('toggle');
-}
-//About
-function abMe() {
 }

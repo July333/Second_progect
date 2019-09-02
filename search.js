@@ -1,7 +1,6 @@
 //search
 function mySearch(cId) {
     $("#loader").show();
-    //templateCard();
     $.ajax({
         method: "GET",
         url: "https://api.coingecko.com/api/v3/coins/" + cId,
@@ -19,7 +18,6 @@ function mySearch(cId) {
                 localStorage.setItem(cId, JSON.stringify(m));
                 setTimeout(function () { localStorage.removeItem(cId) }, MIN * 1000);
             }
-            //changeCTemplate(template, obj);
             $("#myMain").prepend(template);
             $("#myMain section:first-child").attr("data-id", obj.id);
             $("#myMain section:first-child").attr("id", "searchC");

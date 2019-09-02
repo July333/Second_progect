@@ -6,7 +6,6 @@ function lifeReports() {
     for (let i = 0; i < checkedCoins.length; i++) {
         str += checkedCoins[i].id + " ";
     }
-    //let chartContainer = document.getElementById('chartContainer');
     var options = {
         exportEnabled: true,
         animationEnabled: true,
